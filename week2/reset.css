@@ -1,0 +1,7 @@
+/* Find a reset that will change all the browser css */
+/* Also look into the normalize */
+* {
+    padding: 0;
+    margin: 0;
+
+}
