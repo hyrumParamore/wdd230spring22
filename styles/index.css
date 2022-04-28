@@ -11,20 +11,19 @@ header {
     font-weight: bolder;
     color: white;
     margin-top: 25px;
-    font-family:'Times New Roman';
+    font-family:'Courier';
     text-shadow: 0px 0px 15px black;
 }
 
 img {
     width: 200px;
     margin: 20px 20px 20px 40px;
-    /* box-shadow: 0px 0px 20px black; */
     border-radius: 10px;
 }
 
 body{
     max-width: 800px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     margin: 0 auto;
 }
 
@@ -40,8 +39,8 @@ main{
     margin-left: 40px;
 }
 
-main h1 {
-    text-shadow: 0px 0px 15px gray;
+main h2 {
+    /* text-shadow: 0px 0px 15px gray; */
     color: black;
     font-family:'Courier';
 }
@@ -57,6 +56,7 @@ footer {
     font-weight: lighter;
     padding: 4px;
     text-shadow: 0px 0px 10px black;
+    font-family:'Courier';
 }
 
 p {
@@ -71,4 +71,3 @@ i {
     font-family:'Courier';
     font-weight: bolder;
 }
-
