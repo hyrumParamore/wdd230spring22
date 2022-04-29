@@ -1,5 +1,4 @@
 
-
 body {
     width: 100%;
     margin: 0 auto;
@@ -15,7 +14,6 @@ header {
     padding: 5px;
     font-size: 1.5em;
     font-family:'Courier';
-
 }
 
 .box-header h3 {
@@ -23,8 +21,6 @@ header {
     font-size: 26px;
     font-weight: bolder;
 }
-
-
 
 #grid {
     display: grid;
@@ -51,7 +47,6 @@ header {
     margin: 0 auto;
     text-align: center;
     padding: 10px;
-
     color: black;
 }
 
@@ -65,7 +60,6 @@ header {
     float: left;
 }
 
-
 p {
     font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -76,9 +70,7 @@ p {
 .content {
     font-size:20px;
     text-align: center;
-
 }
-
 
 img {
     border: 2px solid lightgray;
@@ -90,18 +82,12 @@ footer {
     text-align: center;
     background-color: rgb(24, 61, 95);
     color: white;
-    /* height: 50px; */
     text-align: center;
     align-items: center;
     padding: 20px;
     font-size: 1.2em;
-    font-family:'Courier';
-    
-    
+    font-family:'Courier'; 
 }
-
-
-
 
 
 @media only screen and (max-width: 1200px) {
