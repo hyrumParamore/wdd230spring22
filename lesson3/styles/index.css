@@ -1,0 +1,137 @@
+
+/* Variables */
+:root {
+--blue-active: #3373A3;
+--blue-body: #B0D1EB;
+--gray: #666665;
+--background-white: white;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: var(--blue-body);
+}
+
+
+.topnav {
+    background-color: var(--gray);
+    display: flex;
+    overflow: hidden;
+    margin: 15px;
+    list-style: none;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+nav div li a {
+    text-decoration: none;
+    font-size: 0.75em ;
+    color: black;
+}
+
+main {
+    background-color: var(--background-white);
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;  
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: var(--blue-active);
+    color: white;
+}
+
+.topnav a.active:hover {
+    background-color: #89c0eb;
+
+}
+
+p {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+.color-reference {
+    background-color: var(--gray);
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    list-style: none;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: center;
+    height: 60px;
+    width: fit-content;
+
+}
+.color-reference a {
+    float: left;
+    /* color: white; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;  
+}
+.blue-active {
+    background-color: var(--blue-active);
+    font-weight: bolder;
+}
+.blue-body {
+    color: black;
+    font-weight: bolder;
+    background-color: var(--blue-body);
+}
+.gray {
+    color: black;
+    font-weight: bolder;
+    background-color: var(--gray);
+}
+
+.tan {
+    color: black;
+    font-weight: bolder;
+    background-color: #F0B660;
+}
+
+.light-tan {
+    color: black;
+    font-weight: bolder;
+    background-color: #F8DEB6;
+}
+
+
+
+/* Change background color of buttons on hover */
+
+/* Tablet Views */
+
+
+/* Desktop Views */

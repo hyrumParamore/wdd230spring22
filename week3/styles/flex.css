@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+/* nav li {
+    list-style-type: ;
+} */
+
+@media screen and (min-width: 900px){
+    nav ul {
+        flex-direction: row;
+    }
+}
