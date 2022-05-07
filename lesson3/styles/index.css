@@ -72,10 +72,12 @@ main {
 .topnav a.active {
     background-color: var(--accent1);
     color: white;
+    font-weight: bold;
 }
 
 .topnav a.active:hover {
     background-color: var(--blue-body);
+    color: black;
 
 }
 
