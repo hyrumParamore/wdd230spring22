@@ -1,3 +1,8 @@
+/* In case I want to use Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+
 
 /* Variables */
 :root {
@@ -5,7 +10,10 @@
 --blue-body: #B0D1EB;
 --gray: #666665;
 --background-white: white;
+--accent1: #F0B660;
+--accent2: #F8DEB6;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
 }
 
 
@@ -56,18 +64,18 @@ main {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: white;
+    background-color: var(--background-white);
     color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: var(--blue-active);
+    background-color: var(--accent1);
     color: white;
 }
 
 .topnav a.active:hover {
-    background-color: #89c0eb;
+    background-color: var(--blue-body);
 
 }
 
@@ -118,14 +126,24 @@ p {
 .tan {
     color: black;
     font-weight: bolder;
-    background-color: #F0B660;
+    background-color: var(--accent1);
 }
 
 .light-tan {
     color: black;
     font-weight: bolder;
-    background-color: #F8DEB6;
+    background-color: var(--accent2);
 }
+
+.persona-1 img, .persona-2 img {
+    padding-bottom: 20px;
+}
+
+
+
+/* img {
+    border: 1px solid var(--gray);
+} */
 
 
 
