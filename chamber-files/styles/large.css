@@ -1,0 +1,99 @@
+
+@media only screen and (min-width: 50em) {
+
+    :root {
+        --blue-active: #3373A3;
+        --blue-body: #B0D1EB;
+        --gray: #666665;
+        --background-white: white;
+        --accent1: #F0B660;
+        --accent2: #F8DEB6;
+        --font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        --roboto-font: 'Roboto';
+        }
+
+        .ham-box, .ham {
+            display: none;
+            
+        }
+
+
+        #main-boxes {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+
+        }
+        .spotlight-boxes {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .spotlight-boxes-holder {
+            
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .box2-event {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            
+        }
+        .box1-hero {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            height: auto;
+            width: auto;
+        }
+        .box3-new-releases {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .box4-weather {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .box5-join {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        
+
+
+
+        
+
+        .page-links {
+            margin: 15px;
+            display: block;
+            
+        }
+
+        .links a {
+            color: var(--background-white);
+            text-decoration: none;
+            
+            
+        }
+        .date {
+            margin: 0 auto;
+            
+        }
+        /* p {
+            color: red;
+        } */
+    
+
+}
+
+
