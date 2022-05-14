@@ -1,0 +1,49 @@
+@media only screen and (min-width: 50em) {
+
+    :root {
+        --blue-active: #3373A3;
+        --blue-body: #B0D1EB;
+        --gray: #666665;
+        --background-white: white;
+        --accent1: #F0B660;
+        --accent2: #F8DEB6;
+        --font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        --roboto-font: 'Roboto';
+        }
+
+
+        .topnav {
+            color: red;
+            padding: 10px;
+        }
+
+        .ham {
+            display: none;
+        }
+
+        .links {
+            margin: 20px;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            display: block;
+            
+        }
+
+        .links a {
+            color: var(--background-white);
+            text-decoration: none;
+            
+            
+        }
+    
+
+
+
+
+
+
+
+
+
+}

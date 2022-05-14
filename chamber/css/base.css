@@ -1,0 +1,182 @@
+/* In case I want to use Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+/* Variables */
+:root {
+--blue-active: #3373A3;
+--blue-body: #B0D1EB;
+--gray: #666665;
+--background-white: white;
+--accent1: #F0B660;
+--accent2: #F8DEB6;
+--font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+--roboto-font: 'Roboto';
+
+font-family: var(--font-family);
+}
+
+body {
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    padding-top: 10px;
+    background-color: var(--blue-body);
+}
+
+nav {
+    background-color: var(--gray);
+    /* width: 100%; */
+    max-width: 450px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* .topnav div {
+
+} */
+
+.ham {
+    padding:5px;
+    color: var(--background-white);
+    text-decoration: none;
+    border: 1px solid rgb(143, 143, 143);
+    justify-content: center;
+    
+}
+.ham-box {
+    margin: 20px;
+    display: flex;
+    
+    align-items: center;
+    color: var(--background-white);
+    text-decoration: none;
+    font-size: 150%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    gap: 100px;
+    /* width: fit-content;
+    height: fit-content;
+     */
+}
+
+.date p {
+    background-color: var(--blue-body);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 4px 50px;
+    font-family: var(--roboto-font);
+    
+}
+/* .space {
+    width: 30em;
+    
+} */
+
+.logo-box {
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.logo-box h3 {
+    margin: 0;
+    /* color: blue; */
+}
+
+
+
+
+/* This is what I will need to change in the media queries */
+main {
+    background-color: var(--background-white);
+    display: flex;
+    max-width: 450px;
+    margin: 0 auto;
+    max-height: 100%;
+    /* justify-content: space-between; */
+    
+    
+}
+
+#main-boxes {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    
+    
+    
+
+}
+
+#main-boxes > div {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 10px;
+    height: 150px;
+    /* width: auto; */
+    
+}
+#main-boxes h4 {
+    text-align: left;
+
+}
+
+#main-boxes .spotlight-boxes {
+    /* background-color: red; */
+    height: auto;
+    
+
+}
+.spotlight-boxes div {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 200px;
+    
+}
+
+.links {
+    /* color: red; */
+    display: none;
+}
+
+
+div .active:hover {
+    background-color: var(--blue-body);
+    color: red;
+    
+}
+
+
+
+
+
+
+
+/* .topnav .links .active a:hover {
+    background-color: var(--background-white);
+    color: black;
+}
+
+/* Add a color to the active/current link */
+/* .topnav a.active {
+    background-color: var(--accent1);
+    color: white;
+    font-weight: bold;
+}
+
+.topnav a.active:hover {
+    background-color: var(--blue-body);
+    color: black;
+
+} */ 

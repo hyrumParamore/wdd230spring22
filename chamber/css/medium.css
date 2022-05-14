@@ -1,0 +1,58 @@
+@media only screen and (min-width: 32.5em) {
+    :root {
+        --blue-active: #3373A3;
+        --blue-body: #B0D1EB;
+        --gray: #666665;
+        --background-white: white;
+        --accent1: #F0B660;
+        --accent2: #F8DEB6;
+        --font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        --roboto-font: 'Roboto';
+        }
+
+        nav {
+            max-width: 750px;
+        }
+        
+        
+
+    .topnav {
+        color: white
+    }
+
+    main {
+        display: flex;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    #main-boxes .spotlight-boxes {
+        display: flex;
+    }
+    .spotlight-boxes div {
+        /* margin: 10px; */
+        /* padding: 10px; */
+        /* border: 1px solid black; */
+        /* height: 200px; */
+        width: 100%;
+        
+    }
+    
+    .links {
+        display: none;
+    }
+
+
+    
+}
+
+/* .box:nth-of-type(3) {
+    grid-column: 1/2;
+    width: 100%;
+}
+.box:nth-of-type(3) {
+    grid-column: 1/3;
+    width: 50%;
+} */
