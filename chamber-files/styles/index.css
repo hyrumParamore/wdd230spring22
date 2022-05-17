@@ -63,12 +63,6 @@ nav div a {
     color: black;
 }
 
-main {
-    background-color: var(--background-white);
-    max-width: 450px;
-    margin: 0 auto;
-    padding: 15px;
-}
 
 
 /* Style the links inside the navigation bar */
@@ -111,36 +105,36 @@ p {
 .topnav {
     overflow: hidden;
     position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav .myLinks {
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav .myLinks {
     display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
+}
+
+/* Style navigation menu links */
+.topnav a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.ham {
+}
+
+/* Style the hamburger menu */
+.topnav a.ham {
     background: var(--accent2);
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
     background-color: var(--background-white);
     color: black;
-  }
+}
 
 
 /* *******ADDED INFORMATION FROM THE OTHER PAGES********* */
@@ -159,6 +153,7 @@ main {
     margin: 0 auto;
     max-height: 100%; 
     padding-bottom: 30px;
+    padding: 15px;
 }
 
 #main-boxes {
