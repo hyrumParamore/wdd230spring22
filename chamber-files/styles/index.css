@@ -209,9 +209,23 @@ main {
     margin: 10px;
     padding: 10px;
     color: black;
+
+    /* display: flex;
+    flex-wrap: wrap; */
     /* border: 1px solid var(--border-gray); */
     
 }
+
+.spotlight-boxes div img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    /* border: 1px solid var(--border-gray); */
+    
+}
+
+
 .spotlight-boxes-holder hr {
     width: 75%;
     border: 1px solid var(--gray) ;
@@ -236,6 +250,8 @@ main {
 .spotlight-boxes-holder {
     background-color: var(--gray);
     padding: 5px 0px 5px 0px;
+    /* display: flex;
+    flex-wrap: wrap; */
     
 }
 
