@@ -28,6 +28,8 @@ body {
     display: none;
 }
 
+
+
 .date {
     padding: 10px;
     background-color: var(--gray);
@@ -43,6 +45,7 @@ nav {
 
 .nav-background {
     background-color: var(--gray);
+    box-shadow: 0px 2px 10px var(--gray);
 }
 
 .topnav {
@@ -73,6 +76,11 @@ nav div a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;  
+    /* width: 150px; */
+    
+}
+.page-links a {
+    width: 120px;
 }
 
 /* Change the color of links on hover */
@@ -95,10 +103,11 @@ nav div a {
 
 p {
     /* max-width: 100%; */
-    text-align: center;
+    /* text-align: center; */
     margin: 0 auto;
     padding-bottom: 20px;
     color: black;
+    font-size: 17px;
 }
 
 /* ADDING THE DORP DOWN MENU */
@@ -139,7 +148,7 @@ p {
 
 /* *******ADDED INFORMATION FROM THE OTHER PAGES********* */
 .date p {
-    background-color: var(--accent2);
+    background-color: var(--blue-body);
     width: 70%;
     margin: 0 auto;
     padding: 4px 50px;
@@ -158,39 +167,129 @@ main {
 
 #main-boxes {
     text-align: center;
-    margin: 20px;
 }
 
 #main-boxes > div {
-    border: 1px solid var(--border-gray);
-    margin: 10px;
-    background-color: lightgray;
-    padding: 10px;
-    height: auto;
-    color: var(--gray);
-    height: auto;
+    /* border: 1px solid var(--border-gray); */
+    margin: 15px;
+    /* background-color: lightgray; */
+    /* padding: 15px; */
+    /* height: auto; */
+    color: var(--background-white);
+
 }
 
 #main-boxes h4 {
-    text-align: left;
+    text-align: center;
+    font-size: larger;
+    /* color: ; */
 }
 
 #main-boxes .spotlight-boxes {
     height: auto;
 }
 
-.spotlight-boxes div {
-    margin: 5px;
-    padding: 10px;
-    border: 1px solid var(--border-gray);
+/* .box1-hero {
+    width: fit-content;
+    max-height: 100%;
+    width: auto;
+} */
+.box1-hero img {
+    height: 75%;
+    width: 100%;
+    /* border: 1px solid var(--border-gray); */
+
+
 }
+
+
+
+
+.spotlight-boxes div {
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    /* border: 1px solid var(--border-gray); */
+    
+}
+.spotlight-boxes-holder hr {
+    width: 75%;
+    border: 1px solid var(--gray) ;
+}
+
+
+.container div{
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px var(--border-gray);
+    
+}
+
+
+/* Background of the spotlight box container */
+.container, .spotlight-boxes-holder {
+    background-color: var();
+    
+    
+}
+
+.spotlight-boxes-holder {
+    background-color: var(--gray);
+    padding: 5px 0px 5px 0px;
+    
+}
+
+
+.box4-weather p, .box4-weather, .box2-event, .box2-event p, .box5-join, .box5-join p {
+    color: black;
+    background-color: var(--accent2);
+
+
+}
+
+/* BUTTONS */
+.box5-join h4 {
+    background-color: var(--blue-body);
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.box5-join h4:hover {
+    background-color: var(--accent1);
+    color: white;
+}
+
+
+
+
+
+
+
+/* .box4-weather, .box2-event, .box5-join {
+    padding: 10px;
+} */
+
+
+
+/* .box2-event {
+    color: black;
+    background-color: var(--blue-body);
+} */
+
+
+
+
 
 /* Hamburger Menu Icon */
 .ham {
     padding: 5px;
     text-decoration: none;
     border: 1px solid rgb(143, 143, 143);
+
 }
+
 
 .ham-box .ham {
     margin: 20px;
@@ -215,6 +314,90 @@ main {
     
 }
 
+
+.spotlight-boxes div {
+    background-color: var(--accent2);
+    border: 1px solid var(--border-gray);
+}
+.box3-new-releases {
+    background-color: var(--gray);
+    /* margin: 50px; */
+    /* padding-bottom: 30px; */
+    padding: 5px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.box3-new-releases p {
+    color: white;
+}
+
+.spotlight-tree-fort {
+    /* background-color: white; */
+    display: none;
+}
+.spotlight-tree-fort img {
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+    /* display: none; */
+    overflow: hidden;
+    height: 25%;
+}
+
+
+.hero-img {
+    object-fit: cover;
+    /* position: relative; */
+    /* height:max-content; */
+    
+    
+}
+.box1-hero .text-box  {
+    /* object-fit: cover; */
+    /* position: relative; */
+    /* height:max-content; */
+    position: absolute;
+    bottom: 750px;
+    /* right: ; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    background-color: var(--blue-body);
+    opacity: .9;
+    /* color: black; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 0px 30px 0px 10px;
+    
+    box-shadow: 5px 5px 10px black;
+
+}
+
+
+.text-box h2 {
+    color: black;
+    font-size: 20px;
+    
+    
+}
+
+
+/* .text-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+} */
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 32.5em) {
     :root {
         --blue-active: #3373A3;
@@ -227,9 +410,9 @@ main {
         --roboto-font: 'Roboto';
         }
 
-    nav {
-        max-width: 750px;
-    }
+    /* nav {
+        max-width: 950px;
+    } */
     .topnav {
         color: white
     }
@@ -242,15 +425,52 @@ main {
         display: flex;
     }
     .spotlight-boxes div {
+        flex-wrap: wrap;
         width: 100%;
-        height: 200px;
+        height: auto;
     }
+
+    .spotlight-tree-fort {
+        display: none;
+    }
+
     .page-links {
         display: none;
     }
     .date {
         margin: 0 auto;
     }
+
+    .box1-hero .text-box  {
+        /* object-fit: cover; */
+        /* position: relative; */
+        /* height:max-content; */
+        position: absolute;
+        bottom: 600px;
+        /* right: ; */
+        /* background: rgba(0, 0, 0, 0.5); */
+        background-color: var(--blue-body);
+        opacity: .9;
+        /* color: black; */
+        /* padding-left: 20px;
+        padding-right: 20px; */
+        padding: 0px 100px 0px 40px;
+        box-shadow: 5px 5px 10px black;
+    
+    }
+    .text-box h2 {
+        color: black;
+        font-size: 20px;
+        /* text-shadow: 5px 2px 10px white; */
+        
+    }
+
+
+    
+    /* .box1-hero img {
+        height: auto;
+        width: 100%;
+    } */
 }
 
 @media only screen and (min-width: 50em) {
@@ -270,45 +490,73 @@ main {
             display: none;
             
         }
+
+        main {
+            max-width: 1400px;
+        }
         #main-boxes {
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            padding-bottom: 120px;
 
         }
         .spotlight-boxes {
             display: flex;
             flex-wrap: wrap;
+            /* height: auto; */
+            
         }
+        
         .spotlight-boxes-holder {
             
             grid-column-start: 3;
             grid-column-end: 4;
             grid-row-start: 1;
-            grid-row-end: 4;
+            grid-row-end: auto;
         }
+
+       
+        .container {
+            /* grid-row-start: 1; */
+            grid-row-end: auto;
+            height: auto;
+            /* background-color: white; */
+        }
+        
+
+
+
         .box2-event {
             grid-column-start: 1;
             grid-column-end: 2;
+            /* height: fit-content; */
+            /* grid-row-start: 1;
+            grid-row-end: 1; */
         }
         .box1-hero {
             grid-column-start: 2;
             grid-column-end: 3;
             grid-row-start: 1;
-            grid-row-end: 3;
-            height: auto;
-            width: auto;
+            /* grid-row-end: 3; */
+            height: 70%;
+            
+            
+            /* height: auto; */
+            /* width: auto; */
         }
-        .box3-new-releases {
-            grid-column-start: 2;
-            grid-column-end: 3;
-            grid-row-start: 3;
-            grid-row-end: 4;
-        }
+        /* .box3-new-releases {
+            grid-column-start: 3;
+            grid-column-end: 2;
+            
+
+            grid-row-start: 2;
+            grid-row-end: 2;
+        } */
         .box4-weather {
             grid-column-start: 1;
             grid-column-end: 2;
-            grid-row-start: 2;
+            grid-row-start: auto;
             grid-row-end: 3;
         }
         .box5-join {
@@ -329,6 +577,35 @@ main {
         .date {
             margin: 0 auto; 
         }
+        .spotlight-tree-fort {
+            display: block;
+        }
+
+        .box1-hero .text-box  {
+            /* object-fit: cover; */
+            /* position: relative; */
+            /* height:max-content; */
+            position: absolute;
+            bottom: 500px;
+            /* right: ; */
+            /* background: rgba(0, 0, 0, 0.5); */
+            background-color: var(--blue-body);
+            opacity: .9;
+            /* color: black; */
+            /* padding-left: 20px;
+            padding-right: 20px; */
+            padding: 0px 100px 0px 40px;
+            box-shadow: 5px 5px 10px black;
+        
+        }
+        .text-box h2 {
+            color: black;
+            font-size: 24px;
+            /* text-shadow: 5px 2px 10px white; */
+            
+        }
+
+        
 }
 
 
