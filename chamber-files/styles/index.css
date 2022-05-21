@@ -1,4 +1,4 @@
-/* In case I want to use Roboto */
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto&display=swap');
 /* font-family: 'Roboto', sans-serif; */
 
@@ -241,11 +241,11 @@ main {
 
 
 /* Background of the spotlight box container */
-.container, .spotlight-boxes-holder {
+/* .container, .spotlight-boxes-holder {
     background-color: var();
     
     
-}
+} */
 
 .spotlight-boxes-holder {
     background-color: var(--gray);
