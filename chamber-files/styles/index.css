@@ -110,6 +110,11 @@ p {
     font-size: 17px;
 }
 
+
+.box4-weather p {
+    padding-bottom: 5px;
+}
+
 /* ADDING THE DORP DOWN MENU */
 .topnav {
     overflow: hidden;
@@ -226,7 +231,7 @@ main {
 }
 
 
-.spotlight-boxes-holder hr {
+.spotlight-boxes-holder hr, .box4-weather hr {
     width: 75%;
     border: 1px solid var(--gray) ;
 }
@@ -269,6 +274,7 @@ main {
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 2px 2px 4px var(--gray);
 
 }
 
@@ -393,6 +399,7 @@ main {
     font-size: 20px;
     
     
+    
 }
 
 
@@ -407,6 +414,23 @@ main {
     
 } */
 
+/* .box4-weather img, .temp h2 {
+    background-color: #B0D1EB;
+
+} */
+
+
+/* Temp box that shows the current temperature */
+.temp h2 {
+    background: var(--blue-body);
+    width: 40%;
+    padding: 5px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px var(--gray);
+
+    /* Don't know if I want this or not../ */
+    border-radius: 5px;
+}
 
 
 

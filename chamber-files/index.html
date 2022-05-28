@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choice Chambers</title>
     <link rel="icon" type="image/x-icon" href="images/favicon-64x64.ico">
-    <!-- <link rel="stylesheet" href="color-scheme.html"> -->
-    <!-- <link rel="stylesheet" href="target-audience.html"> -->
-    <!-- <link rel="stylesheet" href="typography.html"> -->
+
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/weather.js"></script>
     <!-- <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css"> -->
 
@@ -19,30 +18,32 @@
 
 </head>
 <body>
-    <header>
-        
-    </header>
-
     <main>
-        <div class="nav-background">
-            <nav class="topnav">
-                <img src="/wdd230spring22/chamber-files/images/LogoSample_ByTailorBrands_resize.jpg" alt="logo">
-                <div class="page-links">
-                    <a class="active" href="">Home</a>
-                    <a href="#">Discover</a>
-                    <a href="#">Directory</a>
-                    <a href="#">Join</a>
-                    <a href="#">Contact</a>
-                </div>
-
-                    
-                    <div class="ham-box">
-                        <a class="ham" onclick="myFunction()">&#9776;</a>
+        <header>
+            
+            <div class="nav-background">
+                <nav class="topnav">
+                    <img src="/wdd230spring22/chamber-files/images/webp/logo.webp" alt="logo">
+                    <div class="page-links">
+                        <a class="active" href="">Home</a>
+                        <a href="#">Discover</a>
+                        <a href="#">Directory</a>
+                        <a href="#">Join</a>
+                        <a href="#">Contact</a>
                     </div>
-                    
-            </nav>
-            <div class="date"><p><span></span></p> </div> 
-        </div>
+
+                        
+                        <div class="ham-box">
+                            <a class="ham" onclick="myFunction()">&#9776;</a>
+                        </div>
+                        
+                </nav>
+                <div class="date"><p><span></span></p> </div> 
+            </div>
+        </header>
+
+    
+        
 
         <!-- <h2>Chamber of Commerse</h2> -->
 
@@ -56,7 +57,7 @@
                 <div class="text-box">
                     <h2>Join the Chamber</h2>
                 </div>
-                <img class="hero-img" src="images/rsz_hines-mill-house.jpg" alt="Hines Pine Mill House">
+                <img class="hero-img" src="images/webp/wdd230-org-optimized.jpg" alt="Hines Pine Mill House">
                 <!-- <div class="over-image">
                     <h2>Join the Chamber</h2>
                 </div> -->
@@ -80,14 +81,14 @@
 
                 <!-- <hr> -->
                     
+                    <!-- Weather Box -->
                     <div class="box4-weather"><h4>Weather</h4>
-                        <p>The weather will go here
-                            <br> ---
-                            <br> ---
-                            <br> ---
-                            <br> ---
-
-                        </p>
+                        <img src="images/weather-icon.png" alt="weather icon">
+                        <span class="temp"><h2>33 &#8457;</h2></span>
+                        <h4>Partly Cloudy</h4>
+                        <hr>
+                        <p class="wind-speed">Wind Speed: <span >2.5 </span>km/h</p>
+                        <p>Wind Chill:  <span class="wind-chill"></span></p>
                     </div>
 
                 <!-- <hr> -->
@@ -105,21 +106,21 @@
                 <div class="spotlight-boxes">
                     <div class="spotlight"><h4>Thankful Transport</h4>
                         <img src="images/rsz_moving_truck.png" alt="Image of a truck"><br>
-                        <i>"We get it there for you!"</i>
+                        <b><i>"We get it there for you!"</i></b>
                         <hr>
                         <p>hello@thankfultransport.com <br>+999-999-9999 <br><i>Website</i></p>
                         
                     </div>
                     <div class="spotlight"><h4>Code Primera</h4>
                         <img src="images/rsz_1coding-computer.png" alt="Image of code"><br>
-                        <p>An after school coding instructional program!</p>
+                        <b><p>An after school coding instructional program!</p></b>
                         <hr>
                         <p>contact@codeprimera.com <br>+999-999-9999 <br><i>Website</i></p>
 
                     </div>
                     <div class="spotlight-tree-fort"><h4>Build A Treefort</h4>
                         <img src="images/icons8-treehouse-96.png" alt="Image of treehouse"><br>
-                        <p>Over 1000 Plans!</p>
+                        <p><b><i>Over 1000 Plans!</i></b></p>
                         <hr>
                         <p>building@treeforts.com <br>+999-999-9999 <br><i>Website</i></p>
 
@@ -130,7 +131,7 @@
     
         <section class="logo">
             <!-- <h3>A Simple Logo:</h3> -->
-            <img src="images/LogoSample_ByTailorBrands(2).jpg" alt="a simple logo">
+            <img src="/wdd230spring22/chamber-files/images/webp/logo.webp" alt="a simple logo">
             <!-- <p>(or something similar to this.)</p> -->
 
             <div class="address">
@@ -141,13 +142,14 @@
                 </p>
             </div>
         </section>
-
-        <section>
-            <hr>
-            <h3>&copy; 2022 | Hyrum Paramore | Oregon</h3>
-            <p>Last Updated: <span class="javascript-date"></span></p>
-            <a class="site-plan-link" href="https://hyrumparamore.github.io/wdd230spring22/lesson3/index.html"><p>Click here to see the Site Plan</p></a>
-        </section>
+        <footer>
+            <section>
+                <hr>
+                <h3>&copy; 2022 | Hyrum Paramore | Oregon</h3>
+                <p>Last Updated: <span class="javascript-date"></span></p>
+                <a class="site-plan-link" href="https://hyrumparamore.github.io/wdd230spring22/lesson3/index.html"><p>Click here to see the Site Plan</p></a>
+            </section>
+        </footer>
 
         <!-- <img src="images/rsz_hines-mill-house.png" alt="Hines Pine Mill House"> -->
 
