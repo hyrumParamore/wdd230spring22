@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Card Creator</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+</head>
+<body>
+    
+    <header>
+        <div class="top-container">
+            <h1>PokeDex</h1>
+            <b class="text-muted">Is your Pokémon on our Codex?</b>
+            <div class="search-container">
+              <input type="text"  id="search_q" placeholder="Search pokémon by name">
+              
+              <button class="btn-search" id="search-btn">
+                <i class="search">Search</i>
+
+              </button>
+        </div>
+    </header>
+    
+    <main class="main-container">
+        <div class="header">
+            <p class="title">Basic Pokémon</p>
+            <b><p id="update-name">Pikachu</p></b>
+            <b><p class="hp"><span id="update-hp">HP 100</span></p></b>
+            
+        </div>
+        
+        <!-- Images -->
+        <div class="image-box">
+            <img id="update-img" src="images/Pikachu.webp" alt="Pokemon" srcset="">
+        </div>
+
+        <div class="abilities">
+            <h3>Abilities/Moves:</h3>
+            <li id="ability-1">Static</li>
+            <li id="ability-2">Lightning-rod</li>
+            <li id="ability-3">Mega-punch</li>
+        </div>
+
+        <div class="footer-section">
+            <b><hr>Type: </b><span id="update-type"> Electric</span>
+            <b>| Height: </b><span id="update-height"> 0.4m</span>
+            <b>| Weight: </b><span id="update-weight"> 60kg</span>
+        </div>  
+        </div>
+
+    </main>
+
+</body>
+</html>
