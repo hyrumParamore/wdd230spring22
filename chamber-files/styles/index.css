@@ -421,12 +421,15 @@ main {
 
 
 /* Temp box that shows the current temperature */
-.temp h2 {
+p .temp {
     background: var(--blue-body);
     width: 40%;
-    padding: 5px;
+    /* padding: 5px; */
+    padding: 5px 15px 5px 15px;
     margin: 0 auto;
     box-shadow: 2px 2px 4px var(--gray);
+    font-size: 24px;
+    font-weight: bold;
 
     /* Don't know if I want this or not../ */
     border-radius: 5px;
