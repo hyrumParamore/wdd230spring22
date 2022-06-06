@@ -443,10 +443,7 @@ p .temp {
 
 
 /* START OF DISPLAY PAGE CSS */
-.grid-images img:hover {
-    box-shadow: 0 0 60px black;
-    
-}
+
 
 .images {
     width: 400px;
@@ -678,6 +675,11 @@ p .temp {
         }
         .info-box {
             width: fit-content;
+            
+        }
+
+        .grid-images img:hover {
+            box-shadow: 0 0 60px black;
             
         }
 
