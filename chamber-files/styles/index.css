@@ -438,10 +438,19 @@ p .temp {
 
 
 
+
+
+
+
 /* START OF DISPLAY PAGE CSS */
 .grid-images img:hover {
     box-shadow: 0 0 60px black;
     
+}
+
+.images {
+    width: 400px;
+    height: 300px;
 }
 
 
@@ -661,7 +670,7 @@ p .temp {
 
         /* START OF DISCOVER PAGE */
         .grid-images {
-            margin: 100px;
+            /* margin: 100px; */
             /* grid-column: 1fr 1fr 1fr; */
         }
         .grid-images img {
