@@ -1,6 +1,6 @@
 :root {
 	--back: rgba(154, 240, 166, 0.671);
-    --back2: rgba(39, 114, 158, 0.521);
+    --back2: rgba(39, 114, 158, 0.76);
 	--shadow: hsl(0,0%,50%);
 	--zebra: rgb(231, 230, 230);
 	--zebra2: rgba(123, 255, 248, 0.219);
@@ -9,7 +9,7 @@
 
 table {
     font-family: Ubuntu, sans-serif;
-	margin: 50px auto;
+	margin: 100px auto;
 	border: thin solid var(--border);
 	box-shadow: 0 0 30px var(--shadow);
 	border-collapse: collapse;
@@ -49,12 +49,20 @@ tbody tr:nth-child(odd) {
 }
 
 .highlight {
-    background-color: rgba(39, 114, 158, 0.521);
+    background-color: var(--back2);
 	color: white;
 	
 }
 
 .footer {
-	background-color: rgba(39, 114, 158, 0.521);
+	background-color: var(--back2);
 	font-size: 14px;
+}
+
+.header {
+	font-size: 26px;
+}
+
+.colheader {
+	color: white;
 }
