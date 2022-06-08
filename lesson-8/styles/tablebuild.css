@@ -47,6 +47,6 @@ tbody tr:nth-child(even) {
     font-size: 18px;
 }
 
-.hightlight {
-    background-color: rgba(16, 78, 114, 0.521);
+.highlight {
+    background-color: rgba(39, 114, 158, 0.521);
 }

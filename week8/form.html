@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-</head>
+    <script defer src="scripts/form.js"></script>
+</head> 
 <body>
     <form action="#" method="POST" autocomplete="on">
         <label for="fname">First Name *: </label>
@@ -19,6 +20,8 @@
         <input type="tel" id="phone" placeholder="(###) ###-####" minlength="10" pattern="[1-9]+">
 
         <button type="submit">Submit Form:</button>
+
+        <input type="hidden" id="date" name="email_date">
     </form>
 </body>
 </html>
