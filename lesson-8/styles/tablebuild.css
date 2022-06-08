@@ -1,0 +1,52 @@
+:root {
+	--back: rgba(154, 240, 166, 0.671);
+    --back2: rgba(109, 192, 240, 0.521);
+	--shadow: hsl(0,0%,50%);
+	--zebra: rgb(212, 212, 212);
+    --black: black;
+}
+
+table {
+    font-family: Ubuntu, sans-serif;
+	margin: 10px auto;
+	border: thin solid var(--black);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+	color: var(--black);
+	font-size: .85rem;
+}
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--black);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--black);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+.footer {
+    font-size: 18px;
+}
+
+.hightlight {
+    background-color: rgba(16, 78, 114, 0.521);
+}
