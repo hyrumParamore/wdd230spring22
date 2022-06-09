@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join | Choice Chambers</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-64x64.ico">
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/join.js"></script>
+    <!-- <script defer src="scripts/weather.js"></script> -->
+    <!-- <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <main>
+        <header>
+            
+            <div class="nav-background">
+                <nav class="topnav">
+                    <img src="/wdd230spring22/chamber-files/images/webp/logo.webp" alt="logo">
+                    <div class="page-links">
+                        <a class="active" href="https://hyrumparamore.github.io/wdd230spring22/chamber-files/index.html">Home</a>
+                        <a href="https://hyrumparamore.github.io/wdd230spring22/chamber-files/discover.html">Discover</a>
+                        <a href="#">Directory</a>
+                        <a href="#">Join</a>
+                        <a href="#">Contact</a>
+                    </div>
+
+                        
+                        <div class="ham-box">
+                            <a class="ham" onclick="myFunction()">&#9776;</a>
+                        </div>
+                        
+                </nav>
+                <div class="date"><p><span></span></p> </div> 
+            </div>
+        </header>
+
+        <div class="content">
+        <!-- Form Section -->
+            <section class="my-form">
+                <form action="#" method="POST" autocomplete="on">
+                    <div class="form-box">
+                        <label for="fname">First Name *: </label>
+                        <input id="fname" name="fname" required placeholder="First Name">
+                    </div>
+                    
+                    <div class="form-box">
+                        <label for="pw">Password *: </label>
+                        <input id="pw" name="pw" required minlength="8" pattern="[- A-Za-z]+" placeholder="Password">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="phone">Phone Number *:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(###) ###-####" minlength="10" pattern="[1-9]+">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="email">Email *:</label>
+                        <input type="email" id="email" name="email" placeholder="choicechambers@gmail.com">
+                    </div>
+
+
+                    <!-- Radio Boxes -->
+                    <!-- <br><label class="member-label" for="radio">What level of membership are you?</label> -->
+                    <div class="radio-box">
+                        <label class="member-label" for="radio">What level of membership are you?</label><br><br>
+                        
+                        
+                        <div>
+                            <input type="radio" class="membership" name="membership" value="level1">
+                            <label class="membership" for="level1" required>Level 1</label><br>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" class="membership" name="membership" value="level2">
+                            <label class="membership" for="level2">Level 2</label><br>
+                        </div>
+
+                        <div>
+                            <input type="radio" class="membership" name="membership" value="level3">
+                            <label class="membership" for="level3">Level 3</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="membership" name="membership" value="level4">
+                            <label class="membership" for="level4">Level 4</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-box">
+                        <label for="discription">Business Discription:</label>
+                        <input class="textbox" type="text"  name="text" placeholder="Discription here...">
+                    </div>
+
+                    <div class="submit">
+                        <button type="submit">Submit Form</button>
+                    </div>
+                    
+            
+
+                    <!-- <input type="hidden" id="date" name="email_date"> -->
+                </form>
+            </section>
+
+            <section class="help">
+                <h4>NP Membership</h4>
+                <li>For non profit organizations and there is no fee</li>
+
+                <h4>Bronze Membership</h4>
+                <li>15% discount on events</li>
+                <li>10% discount on advertising</li>
+                <li>Fee of $50/month</li>
+
+                <h4>Silver Membership</h4>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+
+                <h4>Gold Membership</h4>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Fee of $250/month</li>
+            </section>
+        </div>
+
+
+
+        <footer>
+            <section>
+                <hr>
+                <h3>&copy; 2022 | Hyrum Paramore | Oregon</h3>
+                <p>Last Updated: <span class="javascript-date"></span></p>
+                <a class="site-plan-link" href="https://hyrumparamore.github.io/wdd230spring22/lesson3/index.html"><p>Click here to see the Site Plan</p></a>
+            </section>
+        </footer>
+    
+</body>
+</html>

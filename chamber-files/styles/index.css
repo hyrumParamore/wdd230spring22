@@ -287,23 +287,6 @@ main {
 
 
 
-
-
-/* .box4-weather, .box2-event, .box5-join {
-    padding: 10px;
-} */
-
-
-
-/* .box2-event {
-    color: black;
-    background-color: var(--blue-body);
-} */
-
-
-
-
-
 /* Hamburger Menu Icon */
 .ham {
     padding: 5px;
@@ -403,22 +386,6 @@ main {
 }
 
 
-/* .text-box {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-} */
-
-/* .box4-weather img, .temp h2 {
-    background-color: #B0D1EB;
-
-} */
-
 
 /* Temp box that shows the current temperature */
 p .temp {
@@ -439,16 +406,115 @@ p .temp {
 
 
 
-
-
-
-/* START OF DISPLAY PAGE CSS */
+/********************************
+    START OF DISPLAY PAGE CSS
+********************************/
 
 
 .images {
     width: 400px;
     height: 300px;
 }
+
+
+
+
+
+
+
+
+/********************************
+        Start of Join Page
+********************************/
+
+.my-form {
+    width: 400px;
+    margin: 100px auto;
+    padding: 50px 0px 50px 0px;
+    border: 2px solid var(--border-gray);
+    background-color: var(--accent2);
+    box-shadow: 2px 2px 4px var(--gray);
+    font-weight: bold;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+
+}
+
+
+label {
+    padding-bottom: 5px;
+}
+
+.textbox {
+    min-width: 98%;
+    display: flex;
+    flex-wrap: inherit;
+}
+
+
+.radio-box {
+    text-align: left;
+    padding: 10px;
+}
+.member-label {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.help {
+    width: 250px;
+    text-align: left;
+    background-color: var(--accent2);
+    margin: auto;
+    padding: 15px;
+    box-shadow: 2px 2px 4px var(--gray);
+    border: 2px solid var(--border-gray);
+    font-size: .9rem;
+
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    /* padding: 25px; */
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+
+button{
+    background-color: var(--blue-body);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-size: ; */
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px var(--border-gray);
+}
+
+button:hover{
+    background-color: var(--accent1);
+    color: white;
+}
+
+
+
+
 
 
 
@@ -524,11 +590,25 @@ p .temp {
     }
 
 
+
+
+
+
+    /********************************
+            Start of Join Page
+    ********************************/
+
+    .content {
+        width: 70%;
+    }
     
-    /* .box1-hero img {
-        height: auto;
-        width: 100%;
-    } */
+
+
+
+
+
+
+
 }
 
 @media only screen and (min-width: 50em) {
@@ -684,6 +764,12 @@ p .temp {
         }
 
 
+
+        /********************************
+                Start of Join Page
+        ********************************/
+
+        
 
 
 }
