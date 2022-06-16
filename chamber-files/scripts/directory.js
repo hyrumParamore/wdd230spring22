@@ -39,15 +39,20 @@ function displayBusinesses(business)
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
   let add = document.createElement('p');
+  let web = document.createElement('p');
+  let phone = document.createElement('p');
   // let pob = document.createElement('p');
   let img = document.createElement('img');
 
   h2.textContent = business.name; //+ ' ' + business.lastname; // Same as v
-  add.textContent = 'This is the address: ' + business.add;                          //   v
+  add.textContent = 'This is the address: ' + business.address;    //   v
+  web.textContent = 'This is the website: ' + business.website;
+  phone = textContent = 'this is the phone number ' + business.phone;
   // pob.textContent = `${business.birthplace}`;                               //   v
   img.setAttribute('src', business.imageurl);                                     //   v
   img.setAttribute('alt', `${business.name}`) // This :)
 
+  
   card.appendChild(h2);
   card.appendChild(add);
   // card.appendChild(pob);
