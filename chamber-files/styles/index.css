@@ -518,9 +518,20 @@ button:hover{
     Start of Directory Page
 ********************************/
 
+.content {
+    margin: 0 auto;
+    
+    
+}
 
 .cards {
     padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    
+    
 }
 
 
