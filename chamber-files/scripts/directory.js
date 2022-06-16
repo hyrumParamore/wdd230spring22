@@ -41,10 +41,10 @@ function displayProphets(prophet)
   let pob = document.createElement('p');
   let img = document.createElement('img');
 
-  h2.textContent = prophet.name + ' ' + prophet.lastname; // Same as vv
-  dob.textContent = `${prophet.birthdate}`;
-  pob.textContent = `${prophet.birthplace}`;
-  img.setAttribute('src', prophet.imageurl);
+  h2.textContent = prophet.name + ' ' + prophet.lastname; // Same as v
+  dob.textContent = `${prophet.birthdate}`;                          //   v
+  pob.textContent = `${prophet.birthplace}`;                               //   v
+  img.setAttribute('src', prophet.imageurl);                                     //   v
   img.setAttribute('alt', `${prophet.name} ${prophet.lastname} ${prophet.order}`) // This :)
 
   card.appendChild(h2);
