@@ -3,10 +3,11 @@
     "businesses": [
       {
         "name": "Paramore Real Estate",
-        "address": "",
+        "address": "address",
         "phone": 1234567,
         "website": "somethingsomething.com",
         "imageurl": "https://dummyimage.com/500x500/ccc/fff"
       }
+      
     ]
   }

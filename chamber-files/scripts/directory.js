@@ -1,4 +1,5 @@
-const requestURL = 'https://byui-cit230.github.io/wdd230spring22/chamber-files/json-files/directory.json';
+const requestURL = 'https://hyrumparamore.github.io/wdd230spring22/chamber-files/json-files/directory.json';
+// const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
 // .THEN function
 // fetch(requestURL)
@@ -19,22 +20,21 @@ const requestURL = 'https://byui-cit230.github.io/wdd230spring22/chamber-files/j
 
 
 // ASYNC function
-async function getProphets(requestURL) {
+async function getBusinesses(requestURL) {
   const response = await fetch(requestURL);
   if (response.ok) {
     const jsonObject = await response.json();
     console.log(jsonObject);
 
-    const prophets = jsonObject['businesses'];
-    prophets.forEach(displayProphets);
-    
+    const business = jsonObject['businesses'];
+    business.forEach(displayBusinesses);
   }
 }
 
-getProphets(requestURL);
+getBusinesses(requestURL);
 
 
-function displayProphets(prophet)
+function displayBusinesses(business)
 {
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
@@ -42,29 +42,29 @@ function displayProphets(prophet)
   let pob = document.createElement('p');
   let img = document.createElement('img');
 
-  h2.textContent = prophet.name + ' ' + prophet.lastname; // Same as v
-  dob.textContent = `${prophet.birthdate}`;                          //   v
-  pob.textContent = `${prophet.birthplace}`;                               //   v
-  img.setAttribute('src', prophet.imageurl);                                     //   v
-  img.setAttribute('alt', `${prophet.name} ${prophet.lastname} ${prophet.order}`) // This :)
+  h2.textContent = business.name; //+ ' ' + business.lastname; // Same as v
+  add.textContent = `${business.address}`;                          //   v
+  // pob.textContent = `${business.birthplace}`;                               //   v
+  img.setAttribute('src', business.imageurl);                                     //   v
+  img.setAttribute('alt', `${business.name}`) // This :)
 
   card.appendChild(h2);
-  card.appendChild(dob);
-  card.appendChild(pob);
+  card.appendChild(add);
+  // card.appendChild(pob);
   card.appendChild(img);
   document.querySelector('.cards').appendChild(card)
 
 }
 
 
-function displayTable(prophet) 
+function displayTable(business) 
 {
   let list_row = document.createElement('tr');
   let td_name = document.createElement('td');
-  td_name.textContent = prophet.name + ' ' + prophet.lastname;
+  td_name.textContent = business.name + ' ' + business.lastname;
 
   let td_birthdate = document.createElement('td');
-  td_birthdate.textContent = prophet.birthdate;
+  td_birthdate.textContent = business.birthdate;
 
   list_row.appendChild(td_name);
   list_row.appendChild(td_birthdate);
