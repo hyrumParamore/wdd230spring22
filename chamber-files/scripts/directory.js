@@ -38,12 +38,12 @@ function displayBusinesses(business)
 {
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
-  let dob = document.createElement('p');
-  let pob = document.createElement('p');
-  let img = document.createElement('img');
+  let add = document.createElement('p');
+  // let pob = document.createElement('p');
+  let img = document.createElement('picture');
 
   h2.textContent = business.name; //+ ' ' + business.lastname; // Same as v
-  add.textContent = `${business.address}`;                          //   v
+  add.textContent = business.add + ' This is the address' ;                          //   v
   // pob.textContent = `${business.birthplace}`;                               //   v
   img.setAttribute('src', business.imageurl);                                     //   v
   img.setAttribute('alt', `${business.name}`) // This :)
