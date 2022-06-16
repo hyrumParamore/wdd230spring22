@@ -43,7 +43,7 @@ function displayBusinesses(business)
   let img = document.createElement('img');
 
   h2.textContent = business.name; //+ ' ' + business.lastname; // Same as v
-  add.textContent = business.add + ' This is the address' ;                          //   v
+  add.textContent = 'This is the address: ' + business.add;                          //   v
   // pob.textContent = `${business.birthplace}`;                               //   v
   img.setAttribute('src', business.imageurl);                                     //   v
   img.setAttribute('alt', `${business.name}`) // This :)
