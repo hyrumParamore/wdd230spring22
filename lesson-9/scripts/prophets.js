@@ -1,5 +1,6 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
+// .THEN function
 // fetch(requestURL)
 //   .then(function (response) {
 //     return response.json();
@@ -17,8 +18,7 @@ const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-
 // }
 
 
-
-
+// ASYNC function
 async function getProphets(requestURL) {
   const response = await fetch(requestURL);
   if (response.ok) {
@@ -26,7 +26,7 @@ async function getProphets(requestURL) {
     console.log(jsonObject);
 
     const prophets = jsonObject['prophets'];
-    prophets.forEach(displayTable);
+    prophets.forEach(displayProphets);
   }
 }
 
