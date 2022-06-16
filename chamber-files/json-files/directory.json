@@ -1,0 +1,15 @@
+
+{
+    "businesses": [
+      {
+        "name": "Joseph",
+        "lastname": "Smith",
+        "birthdate": "23 December 1805",
+        "death": "27 June 1844",
+        "length": 14,
+        "order": 1,
+        "birthplace": "Vermont",
+        "numofchildren": 11
+      }
+    ]
+  }
