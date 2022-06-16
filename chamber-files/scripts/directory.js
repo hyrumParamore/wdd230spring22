@@ -40,7 +40,7 @@ function displayBusinesses(business)
   let h2 = document.createElement('h2');
   let add = document.createElement('p');
   // let pob = document.createElement('p');
-  let img = document.createElement('picture');
+  let img = document.createElement('img');
 
   h2.textContent = business.name; //+ ' ' + business.lastname; // Same as v
   add.textContent = business.add + ' This is the address' ;                          //   v
