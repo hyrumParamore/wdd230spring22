@@ -6,7 +6,7 @@
         "address": "",
         "phone": 1234567,
         "website": "somethingsomething.com",
-        "image": "url/link goes here"
+        "imageurl": "https://dummyimage.com/500x500/ccc/fff"
       }
     ]
   }

@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://byui-cit230.github.io/wdd230spring22/chamber-files/json-files/directory.json';
 
 // .THEN function
 // fetch(requestURL)
@@ -25,8 +25,9 @@ async function getProphets(requestURL) {
     const jsonObject = await response.json();
     console.log(jsonObject);
 
-    const prophets = jsonObject['prophets'];
+    const prophets = jsonObject['businesses'];
     prophets.forEach(displayProphets);
+    
   }
 }
 
