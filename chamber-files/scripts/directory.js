@@ -27,7 +27,7 @@ getBusinesses(requestURL)
 
 
 function showTable() {
-  let section = document.querySelectorAll('.cards');
+  let section = document.querySelectorAll('.cards section');
   section.forEach((cards) =>
     cards.remove());
   getTable(requestURL);
