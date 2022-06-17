@@ -519,7 +519,7 @@ button:hover{
 ********************************/
 
 main .directory-content {
-    /* margin: 0 auto; */
+    margin: 0 auto;
     width: 90%;
     /* background-color: red; */
     
@@ -595,6 +595,7 @@ tr:nth-child(odd) {
 .material-symbols-outlined {
     font-size: 60px;
     gap: 20px;
+    margin: 20px;
 }
 
 .show-icons {

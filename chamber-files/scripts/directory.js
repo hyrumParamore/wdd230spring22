@@ -12,94 +12,22 @@ const requestURL = 'https://hyrumparamore.github.io/wdd230spring22/chamber-files
 
 
 
-// Remove the previous cards so they don't show when changing between the cards and list.
-// section.forEach((item)) => {
-//   forEach 
-//   item.remove()
-// }
-
-// let button1 = document.querySelector('#button1');
-// let button1.addEventListener('click', show);
-
-
-// function myFunction() {
-//   var element = document.getElementById("button1");
-//   // element.classList.toggle("button1");
-//   element.getBusinesses(requestURL);
-// }
-
-// $(document).ready(function(){
-//   $("button").toggle(
-//     console.log("This worked"),
-//     function(){$("p").css({"color": "red"});},
-//     function(){$("p").css({"color": "blue"});},
-//     function(){$("p").css({"color": "green"});
-//   });
-// });
-
-// function showCards() {
-
-
-//   // let section  = document.querySelectorAll('#button1');
-//   // section.forEach((item) => {
-//   //   item.remove();
-//   // })
-// }
-
-
-
-// var clicked = false;
-
-// function toggleBtnClick() {
-//   var button1 = document.getElementById('#button1');
-//   if (clicked) {
-    
-//     getBusinesses(requestURL);
-//     clicked = false;
-//   } else {
-//     getBusinesses(requestURL);
-//     clicked = true;
-//   }
-// }
-
-
-
-// document.querySelector('#button1').addEventListener('click', function () {
-//   document.querySelector('.additional-information')
-//     .classList.toggle('is-visible');
-// });
-
-// let button1 = document.querySelector('#button1');
-
-
-// function show() {
-//     button1.classList.toggle('newstyle');
-// }
-
-
-// button1.addEventListener('click', show);
-
-
-// let grid = querySelector('#button1');
-
-// let mainnav = document.querySelector('.cards');
-
-// hambutton.addEventListener('click', () => {mainnav.classList.toggle('.responsive')})    
-
 
 function showCards() {
-  let section2 = document.querySelectorAll('tr')
+  let section2 = document.querySelectorAll('tr');
   section2.forEach((tr) =>
     tr.remove());
   getBusinesses(requestURL);
 }
+
+getBusinesses(requestURL)
 
 
 
 
 
 function showTable() {
-  let section = document.querySelectorAll('.cards')
+  let section = document.querySelectorAll('.cards');
   section.forEach((cards) =>
     cards.remove());
   getTable(requestURL);
