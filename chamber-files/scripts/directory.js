@@ -45,9 +45,9 @@ function displayBusinesses(business)
   let img = document.createElement('img');
 
   h2.textContent = business.name; //+ ' ' + business.lastname; // Same as v
-  add.textContent = 'This is the address: ' + business.address;    //   v
-  web.textContent = 'This is the website: ' + business.website;
-  pho = textContent = 'This is the phone number ' + business.phone;
+  add.textContent = business.address;    //   v
+  web.textContent = business.website;
+  pho.textContent = business.phone;
   // pob.textContent = `${business.birthplace}`;                               //   v
   img.setAttribute('src', business.imageurl);                                     //   v
   img.setAttribute('alt', `${business.name}`) // This :)
@@ -57,7 +57,7 @@ function displayBusinesses(business)
   card.appendChild(h2);
   card.appendChild(add);
   card.appendChild(web);
-  // card.appendChild(pho);
+  card.appendChild(pho);
   // card.appendChild(pob);
   
   document.querySelector('.cards').appendChild(card)

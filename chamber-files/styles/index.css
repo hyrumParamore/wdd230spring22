@@ -518,21 +518,63 @@ button:hover{
     Start of Directory Page
 ********************************/
 
-.content {
-    margin: 0 auto;
+main .content {
+    /* margin: 0 auto; */
+    width: 90%;
+    /* background-color: red; */
     
     
 }
 
 .cards {
-    padding-top: 100px;
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     /* align-items: center; */
     justify-content: center;
-    
+    gap: 20px;
     
 }
+.cards section {
+    border: 1px solid var(--border-gray);
+    background-color: var(--accent2);
+    padding: 20px;
+    text-align: center;
+    /* width: 20%; */
+    margin: 20px;
+    box-shadow: 2px 2px 4px var(--gray);
+}
+
+.content img {
+    width: 90%;
+    /* box-shadow: 5px 10px 8px 5px var(--border-gray); */
+}
+
+
+
+.cards section:hover {
+    opacity: .7;
+}
+
+
+
+/* Icons */
+.material-symbols-outlined {
+    font-size: 60px;
+    gap: 20px;
+}
+
+.show-icons {
+    padding-top: 70px;
+}
+
+.material-symbols-outlined:hover {
+    background-color: var(--accent1);
+    border-radius: 5px;
+}
+
+
+
 
 
 
