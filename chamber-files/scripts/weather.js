@@ -1,4 +1,4 @@
-
+const requestURL = "https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}"
 
 
 // Grab the current number in the .temp span. (As a Int)
