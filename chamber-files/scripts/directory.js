@@ -93,8 +93,8 @@ function displayBusinesses(business)
   card.appendChild(img);
   card.appendChild(h2);
   card.appendChild(add);
-  card.appendChild(web);
   card.appendChild(pho);
+  card.appendChild(web);
   // card.appendChild(pob);
   
   document.querySelector('.cards').appendChild(card)

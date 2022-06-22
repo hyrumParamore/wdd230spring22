@@ -380,16 +380,13 @@ main {
 .text-box h2 {
     color: black;
     font-size: 20px;
-    
-    
-    
 }
 
 
 
 /* Temp box that shows the current temperature */
-p .temp {
-    background: var(--blue-body);
+#temp {
+    background-color: var(--blue-body);
     width: 40%;
     /* padding: 5px; */
     padding: 5px 15px 5px 15px;
@@ -401,6 +398,15 @@ p .temp {
     /* Don't know if I want this or not../ */
     border-radius: 5px;
 }
+
+.weather-icon {
+    width: 50%;
+}
+.figcaption::first-letter {
+    text-transform: capitalize;
+}
+
+
 
 
 
