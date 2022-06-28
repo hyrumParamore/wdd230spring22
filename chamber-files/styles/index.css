@@ -436,8 +436,26 @@ main {
 }
 
 
+/********************************
+    START OF DISCOVER PAGE
+********************************/
 
+.grid-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.grid-images img {
+    margin: 30px;
+    position: inherit;
+    
+}
+
+.grid-images img:hover {
+    box-shadow: 0 0 60px black;
+    
+}
 
 
 
@@ -856,18 +874,7 @@ tr:nth-child(odd) {
 
         /* START OF DISCOVER PAGE */
         
-        .grid-images img {
-            margin: 20px;
-        }
-        .info-box {
-            width: fit-content;
-            
-        }
-
-        .grid-images img:hover {
-            box-shadow: 0 0 60px black;
-            
-        }
+        
 
 
 
