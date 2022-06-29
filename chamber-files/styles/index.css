@@ -668,8 +668,23 @@ tr:nth-child(odd) {
 
 
 
+/********************************
+    Start of Thank You Page
+********************************/
 
+.thank-you-card {
+    background-color: var(--accent2);
+    margin: 200px auto;
+    width: 30%;
+    padding: 60px 0;
+    border: 1px solid var(--border-gray);
+    text-align: center;
+    box-shadow: 2px 2px 4px var(--gray);
+}
 
+/* main, div .thank-you-card {
+    padding-top: 10px;
+} */
 
 
 
