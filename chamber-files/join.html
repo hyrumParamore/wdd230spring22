@@ -47,26 +47,44 @@
         <div class="content">
         <!-- Form Section -->
             <section class="my-form">
-                <form action="#" method="POST" autocomplete="on">
+                <form action="https://hyrumparamore.github.io/wdd230spring22/chamber-files/thankyou.html" method="GET" autocomplete="on">
                     <div class="form-box">
-                        <label for="fname">First Name *: </label>
+                        <label for="fname">* First Name: </label>
                         <input id="fname" name="fname" required placeholder="First Name">
-                    </div>
-                    
-                    <div class="form-box">
-                        <label for="pw">Password *: </label>
-                        <input id="pw" name="pw" required minlength="8" pattern="[- A-Za-z]+" placeholder="Password">
                     </div>
 
                     <div class="form-box">
-                        <label for="phone">Phone Number *:</label>
+                        <label for="lname">* Last Name: </label>
+                        <input id="lname" type="text" name="lname" required placeholder="Last Name">
+                    </div>
+                    
+                    <!-- <div class="form-box">
+                        <label for="pw">* Password: </label>
+                        <input id="pw" name="pw" required minlength="8" pattern="[- A-Za-z]+" placeholder="Password">
+                    </div> -->
+
+                    <div class="form-box">
+                        <label for="phone">* Phone Number:</label>
                         <input type="tel" id="phone" name="phone" placeholder="(###) ###-####" minlength="10" pattern="[1-9]+">
                     </div>
 
                     <div class="form-box">
-                        <label for="email">Email *:</label>
-                        <input type="email" id="email" name="email" placeholder="choicechambers@gmail.com">
+                        <label for="email">* Email:</label>
+                        <input type="email" id="email" name="email" placeholder="choicechambers@gmail.com" required>
                     </div>
+
+                    <div class="form-box">
+                        <label for="businame">* Business Name: </label>
+                        <input id="businame" type="text" name="business_name" required placeholder="Business Name">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="bustitle">Business Position Title: </label>
+                        <input id="businesstitle" type="text" name="businesstitle"  pattern="[- A-Za-z]+"  minlength="7" placeholder="Position Title">
+                    </div>
+                    
+                    
+                    
 
 
                     <!-- Radio Boxes -->
@@ -106,7 +124,7 @@
                     
             
 
-                    <!-- <input type="hidden" id="date" name="email_date"> -->
+                    <input type="hidden" id="date" name="email_date">
                 </form>
             </section>
 

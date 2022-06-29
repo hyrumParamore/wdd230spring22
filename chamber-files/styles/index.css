@@ -481,7 +481,7 @@ main {
 ********************************/
 
 .my-form {
-    width: 400px;
+    width: 500px;
     margin: 100px auto;
     padding: 50px 0px 50px 0px;
     border: 2px solid var(--border-gray);
@@ -524,7 +524,7 @@ label {
 }
 
 .help {
-    width: 250px;
+    width: 300px;
     text-align: left;
     background-color: var(--accent2);
     margin: auto;
@@ -532,6 +532,7 @@ label {
     box-shadow: 2px 2px 4px var(--gray);
     border: 2px solid var(--border-gray);
     font-size: .9rem;
+    padding-bottom: 30px;
 
 }
 
@@ -550,7 +551,7 @@ button{
     background-color: var(--blue-body);
     border: none;
     color: black;
-    padding: 15px 32px;
+    padding: 12px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
