@@ -688,6 +688,24 @@ tr:nth-child(odd) {
 } */
 
 
+/********************************
+    Start of Contact Page
+********************************/
+
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    text-align: left;
+}
+
+
+
+
+
+
+
 
 
 

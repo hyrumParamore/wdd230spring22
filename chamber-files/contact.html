@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choice Chambers</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-64x64.ico">
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script defer src="scripts/index.js"></script>
+    <!-- <script defer src="scripts/weather.js"></script> -->
+    <!-- <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <main>
+        <header>
+            
+            <div class="nav-background">
+                <nav class="topnav">
+                    <img src="/wdd230spring22/chamber-files/images/webp/logo.webp" alt="logo">
+                    <div class="page-links">
+                        <a class="active" href="https://hyrumparamore.github.io/wdd230spring22/chamber-files/index.html">Home</a>
+                        <a href="https://hyrumparamore.github.io/wdd230spring22/chamber-files/discover.html">Discover</a>
+                        <a href="https://hyrumparamore.github.io/wdd230spring22/chamber-files/directory.html">Directory</a>
+                        <a href="https://hyrumparamore.github.io/wdd230spring22/chamber-files/join.html">Join</a>
+                        <a href="#">Contact</a>
+                    </div>
+
+                        
+                        <div class="ham-box">
+                            <a class="ham" onclick="myFunction()">&#9776;</a>
+                        </div>
+                        
+                </nav>
+                <div class="date"><p><span></span></p> </div> 
+            </div>
+        </header>
+
+    
+        <div class="content">
+            <!-- Form Section -->
+                <section class="my-form">
+                    <h2>Please leave us a message!</h2>
+                    <form action="https://hyrumparamore.github.io/wdd230spring22/chamber-files/thankyou.html" method="GET" autocomplete="on">
+                        <div class="form-box">
+                            <label for="fullname">* Name: </label>
+                            <input id="fullname" name="fullname" required placeholder="Full Name">
+                        </div>
+    
+                        <!-- <div class="form-box">
+                            <label for="lname">* Last Name: </label>
+                            <input id="lname" type="text" name="lname" required placeholder="Last Name">
+                        </div> -->
+                        
+                        <!-- <div class="form-box">
+                            <label for="pw">* Password: </label>
+                            <input id="pw" name="pw" required minlength="8" pattern="[- A-Za-z]+" placeholder="Password">
+                        </div> -->
+    
+                        <div class="form-box">
+                            <label for="phone">* Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(###) ###-####" minlength="10" pattern="[1-9]+">
+                        </div>
+    
+                        <div class="form-box">
+                            <label for="email">* Email:</label>
+                            <input type="email" id="email" name="email" placeholder="choicechambers@gmail.com" required>
+                        </div>
+
+                        <div class="form-box">
+                            <label for="email">Subject:</label>
+                            <input type="text" id="subject" name="subject" placeholder="" required>
+                        </div>
+                        <div>
+                        <label class="form-box">Message:<textarea name="message"></textarea></label>
+                        <!-- <input type="text" id="subject"> -->
+                        </div>
+    
+                        <!-- <div class="form-box">
+                            <label for="businame">* Business Name: </label>
+                            <input id="businame" type="text" name="business_name" required placeholder="Business Name">
+                        </div>
+    
+                        <div class="form-box">
+                            <label for="bustitle">Business Position Title: </label>
+                            <input id="businesstitle" type="text" name="businesstitle"  pattern="[- A-Za-z]+"  minlength="7" placeholder="Position Title">
+                        </div> -->
+                        <div class="submit">
+                            <button type="submit">Submit Form</button>
+                        </div>
+                        
+                    </form>
+                </section>
+            </div>
+
+
+    
+        <section class="logo">
+            <!-- <h3>A Simple Logo:</h3> -->
+            <img src="/wdd230spring22/chamber-files/images/webp/logo.webp" alt="a simple logo">
+            <!-- <p>(or something similar to this.)</p> -->
+
+            <div class="address">
+                <p>
+                    <a href="https://www.google.com/maps/place/Hines+Pine+Mill+House+Bed+and+Breakfast+Inn+and+Events/@43.5540832,-119.0852111,15.75z/data=!4m16!1m7!3m6!1s0x54b0a9917b999775:0x316703cd20fbb43c!2sHines,+OR!3b1!8m2!3d43.5640385!4d-119.0810481!3m7!1s0x54b0abafa65bd757:0xe734c2495ea82f3e!5m2!4m1!1i2!8m2!3d43.5488805!4d-119.0846273">
+                        705 Highway 20 S, Hines, OR 97738
+                    </a> 
+                </p>
+            </div>
+        </section>
+        <footer>
+            <section>
+                <hr>
+                <h3>&copy; 2022 | Hyrum Paramore | Oregon</h3>
+                <p>Last Updated: <span class="javascript-date"></span></p>
+                <a class="site-plan-link" href="https://hyrumparamore.github.io/wdd230spring22/lesson3/index.html"><p>Click here to see the Site Plan</p></a>
+            </section>
+        </footer>
+
+        <!-- <img src="images/rsz_hines-mill-house.png" alt="Hines Pine Mill House"> -->
+
+    </main>
+
+
+
+</body>
+</html>
