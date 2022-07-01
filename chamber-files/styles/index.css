@@ -264,8 +264,7 @@ main {
 .box4-weather p, .box4-weather, .box2-event, .box2-event p, .box5-join, .box5-join p {
     color: black;
     background-color: var(--accent2);
-
-
+    
 }
 
 /* BUTTONS */
@@ -350,6 +349,7 @@ main {
 }
 
 .learn-more {
+    display: flex;
     background-color: var(--blue-body);
     padding: 10px;
     margin-left: 15px;
