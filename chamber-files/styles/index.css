@@ -711,6 +711,7 @@ tr:nth-child(odd) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 50px 0px 100px 0px;
 }
 .contact-grid-images img {
     margin: 30px;
@@ -726,6 +727,16 @@ tr:nth-child(odd) {
     box-shadow: 0 0 15px var(--border-gray);
     
 }
+
+.hr-tag {
+    width: 70%;
+    padding: 50px 0px 50px 0p;
+}
+
+/* .contact-grid-images > picture {
+    background-color: var(--border-gray);
+    margin: 10px;
+} */
 
 
 
