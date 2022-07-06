@@ -82,10 +82,10 @@ h1 {
 
 .image {
     margin: auto;
-    animation: mymove 160s infinite;
+    animation: mymove 100s infinite;
 }
 
 @keyframes mymove {
-    50% {transform: rotate(360deg);}
+    50% {transform: rotate(1080deg);}
   }
 
