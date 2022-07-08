@@ -31,7 +31,7 @@ let now_date = new Date();
 
 // This is this weekends homework to calculate the difference in days they visited
 
-let stored_date = localStorage.getItem('last_visited');
+let stored_date = localStorage.getItem('last-visited');
 
 let last_date = new Date(stored_date);
 
