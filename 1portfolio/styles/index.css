@@ -25,6 +25,7 @@ body {
     background-color: var(--background-color);
     width: 100%;
     font-family: var(--font-main);
+    min-height: 1000px;
 }
 
 /* Navagation Bar */
@@ -146,6 +147,7 @@ hr {
 #about-me {
     padding-top: 100px;
     padding-bottom: 100px;
+    
 }
 
 
@@ -162,7 +164,7 @@ hr {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    margin: 0 auto;
+    margin: 0px auto;
 
     box-shadow: 5px 5px 10px var(--accent-color-2);
 }
@@ -177,17 +179,21 @@ hr {
 }
 
 
+
+
+
+
 /*********************
         FOOTER
 *********************/
 
-#footer {
+footer {
     background-color: var(--main-color);
     margin-top: 100px;
     padding: 40px 0px 40px 0px;
 }
 
-.ft-area {
+#ft-area {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -226,7 +232,7 @@ hr {
     
 }
 
-#footer img {
+footer img {
     width: 40px;
 }
 
@@ -266,9 +272,40 @@ hr {
     Site-Plan Page
 *********************/
 
-/* .site-plan-main div{
-    height: 600px;
-} */
+.site-plan-box-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    width: 60%;
+}
+.wireframes-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.box {
+    background-color: var(--accent-color-1);
+    padding: 15px 50px;
+    box-shadow: 5px 5px 10px var(--main-color);
+
+}
+
+.site-plan-ab-container {
+    background-color: var(--second-color);
+    width: 50%;
+    height: auto;
+    color: var(--background-color);
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 30px;
+    margin: 50px auto;
+
+    box-shadow: 5px 5px 10px var(--accent-color-2);
+}
 
 
 
@@ -324,7 +361,7 @@ hr {
     
     
 
-    .ft-area {
+    #ft-area {
         margin: 0 auto;
         display: flex;
         flex-direction: column; 
