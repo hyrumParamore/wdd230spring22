@@ -80,6 +80,70 @@ h1 {
 
 
 
+/* ********************************** */
+.footer {
+    background-color: red;
+    margin-top: 100px;
+    padding: 40px 0px 40px 0px;
+}
+
+#ft-area {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    /* height: 100px; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-media a {
+    height: 90%;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.social-media a:hover {
+    filter: brightness(130%);
+    transform: scale(1.1);
+}
+
+.ft-contact .contact-button {
+    color: blue;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    border: 0;
+}
+.contact-button:hover {
+    background-color: blue;
+    color: blue;
+    
+    
+}
+
+.footer img {
+    width: 40px;
+}
+
+.visited {
+    background-color: green;
+    color: red;
+    padding: 10px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
 .image {
     margin: auto;
     animation: mymove 100s infinite;
