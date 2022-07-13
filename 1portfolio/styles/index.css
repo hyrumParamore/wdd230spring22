@@ -456,7 +456,7 @@ embed {
 @media only screen and (max-width: 768px) {
 
     #hero-area{
-        padding-top: 30px;
+        padding-top: 80px;
         padding-bottom: 60px;
     }
     .container {
@@ -464,10 +464,8 @@ embed {
         width: 100%;
         margin: 0px 20px 0px 30px;
     }
-    /* .left {
-        width: 100%;
-        height: auto;
-    } */
+    
+    
     .hero-img {
         width: 100%;
         height: auto;
