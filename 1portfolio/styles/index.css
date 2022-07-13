@@ -190,7 +190,7 @@ hr {
 footer {
     background-color: var(--main-color);
     margin-top: 100px;
-    padding: 40px 0px 40px 0px;
+    padding: 30px 0px 30px 0px;
 }
 
 #ft-area {
@@ -243,6 +243,35 @@ footer img {
     font-weight: 500;
 }
 
+.check-me-out {
+    font-weight: 500;
+    color: var(--accent-color-1);
+    padding-right: 10px;
+}
+
+.site-plan-link {
+    color: var(--main-color);
+    text-align: center;
+    background-color: var(--accent-color-1);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 1.05em;
+    width: 8%;
+    margin: 0 auto;
+    
+    
+    
+}
+.site-plan-link, a {
+    text-decoration: none;
+}
+
+
+.site-plan-link:hover {
+    background-color: var(--second-color);
+    color: var(--background-color);
+}
 
 
 
@@ -313,6 +342,57 @@ footer img {
 
 
 
+/*********************
+    Projects Page
+*********************/
+
+.flex-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+    padding-top: 150px;
+    justify-content: center;
+}
+embed {
+    width: 500px;
+    height: 600px;
+}
+
+.project-boxes {
+    background-color: var(--second-color);
+    width: 500px;
+    height: auto;
+    color: var(--background-color);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 0px auto;
+
+    box-shadow: 5px 5px 10px var(--accent-color-2);
+}
+.project-boxes h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.project-boxes p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*********************
@@ -365,5 +445,14 @@ footer img {
         margin: 0 auto;
         display: flex;
         flex-direction: column; 
+    }
+
+
+/*********************
+    Projects Page
+*********************/
+    .flex-boxes {
+        margin: 0 auto;
+        background-color: red;
     }
 }
