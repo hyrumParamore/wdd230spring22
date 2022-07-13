@@ -273,6 +273,11 @@ footer img {
     color: var(--background-color);
 }
 
+/* .site-plan-a {
+    width: 8%;
+    background-color: ;
+} */
+
 
 
 
@@ -345,6 +350,23 @@ footer img {
 /*********************
     Projects Page
 *********************/
+
+.project-main {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.project-header {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 80px;
+    /* padding-left: 10%; */
+    /* padding: 30px; */
+}
+
+
+
 
 .flex-boxes {
     display: flex;
@@ -424,6 +446,8 @@ embed {
 
 
 
+
+
 /*********************
       Media Q's
 *********************/
@@ -476,12 +500,76 @@ embed {
         flex-direction: column; 
     }
 
+    /*********************
+        Something
+    *********************/
+
+    .site-plan-link {
+        width: 150px;
+    }
+    .social-media {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    footer section {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+    }
+
 
 /*********************
     Projects Page
 *********************/
     .flex-boxes {
         margin: 0 auto;
-        background-color: red;
+        /* background-color: red; */
+    }
+
+    .project-header {
+        text-align: left;
+    }
+
+    /* .flex-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        gap: 40px;
+        padding-top: 150px;
+        justify-content: center;
+    } */
+    embed {
+        width: 400px;
+        height: 500px;
+    }
+    
+    .project-boxes {
+        background-color: var(--second-color);
+        width: 400px;
+        height: auto;
+        color: var(--background-color);
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        margin: 0px auto;
+        padding-bottom: 40px;
+    
+        box-shadow: 5px 5px 10px var(--accent-color-2);
+    
+        position: relative;
+    }
+    .project-boxes h2 {
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .project-boxes p {
+        margin: 20px 0;
+        font-weight: 500;
+        line-height: 25px;
+        
     }
 }
