@@ -140,7 +140,7 @@ main {
 
 
 
-hr {
+.index-hr {
     width: 80%;
 }
 
@@ -370,8 +370,11 @@ embed {
     justify-content: center;
     padding: 30px;
     margin: 0px auto;
+    padding-bottom: 40px;
 
     box-shadow: 5px 5px 10px var(--accent-color-2);
+
+    position: relative;
 }
 .project-boxes h2 {
     font-size: 30px;
@@ -381,7 +384,33 @@ embed {
     margin: 20px 0;
     font-weight: 500;
     line-height: 25px;
+    
 }
+
+.project-boxes a p{
+    color: var(--accent-color-1);
+    /* text-underline-offset: 10px; */
+    /* text-decoration: overline; */
+    /* padding-top: 10px; */
+    position: absolute;
+    bottom: 0;
+}
+
+.project-boxes a p:hover {
+    color: var(--background-color);
+    text-decoration: underline;
+}
+
+.boxes-hr {
+    margin: 0;
+    
+    width: 75%;
+}
+
+.boxes-br {
+    padding-top: 20px;
+}
+
 
 
 
