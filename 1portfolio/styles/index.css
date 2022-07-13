@@ -191,6 +191,7 @@ footer {
     background-color: var(--main-color);
     margin-top: 100px;
     padding: 30px 0px 30px 0px;
+    width: 100%;
 }
 
 #ft-area {
@@ -251,20 +252,26 @@ footer img {
 
 .site-plan-link {
     color: var(--main-color);
-    text-align: center;
+    /* text-align: center; */
+    align-items: center;
     background-color: var(--accent-color-1);
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 10px;
     font-weight: 500;
     font-size: 1.05em;
-    width: 8%;
+    width: 15%;
     margin: 0 auto;
-    
-    
-    
 }
-.site-plan-link, a {
+.site-plan-ft-box {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.site-plan-link {
     text-decoration: none;
+    margin: 0 auto;
 }
 
 
@@ -411,9 +418,6 @@ embed {
 
 .project-boxes a p{
     color: var(--accent-color-1);
-    /* text-underline-offset: 10px; */
-    /* text-decoration: overline; */
-    /* padding-top: 10px; */
     position: absolute;
     bottom: 0;
 }
