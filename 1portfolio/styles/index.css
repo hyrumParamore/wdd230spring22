@@ -405,6 +405,12 @@ embed {
     width: 500px;
     height: 600px;
 }
+.project-boxes .images {
+    width: 500px;
+    height: auto;
+    overflow:auto;
+    box-shadow: 5px 5px 10px var(--main-color);
+}
 
 .project-boxes {
     background-color: var(--second-color);
@@ -489,6 +495,7 @@ embed {
     border: 1px solid var(--accent-color-2);
 }
 .tab button {
+    display: block;
     cursor: pointer;
     background-color: inherit;
 }
@@ -611,6 +618,11 @@ embed {
         justify-content: center;
     } */
     embed {
+        width: 400px;
+        height: 500px;
+    }
+
+    .project-boxes .images {
         width: 400px;
         height: 500px;
     }
