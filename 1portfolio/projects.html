@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/index2.js"></script>
 
 </head>
 
@@ -31,9 +32,9 @@
 
     <div class="tab">
         <hr class="tab-hr-tag">
-        <button class="tablinks" onclick="openPage(event, 'Web-Projects')" id="defaultOpen">College Web Projects</button>
-        <button class="tablinks" onclick="openPage(event, 'Paris')">Side Projects</button>
-        <button class="tablinks" onclick="openPage(event, 'Tokyo')">Something Else Maybe</button>
+        <button class="tablinks" onclick="openCity(event, 'Web-Projects')" id="defaultOpen">College Web Projects</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Side Projects</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Something Else Maybe</button>
     </div>
 
 
@@ -154,15 +155,70 @@
     </div>
 
     
-        <div id="SideProjects" class="tabcontent">
-            <h3>Side Projects</h3>
-            <p>Other Projects</p> 
-        </div>
-            
-        <div id="SomethingElse" class="tabcontent">
-            <h3>Something Else</h3>
-            <p>Add other things if you want.</p>
-        </div>
+    <div id="SideProjects" class="tabcontent">
+        <section class="project-main">
+
+            <div class="project-title">
+                <h1 class="project-header">Web Projects</h1>
+                <br>
+                <hr class="project-hr-tag">
+            </div>
+
+            <section class="flex-boxes">
+                <div class="project-boxes"> 
+                    <embed src="https://hyrumparamore.github.io/wdd230spring22/1portfolio/index.html" type="text/html">
+                    <h2>Portfolio Website</h2>
+                    <p><i>WDD 230 Final Project | Spring 2022</i></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt dicta culpa eum incidunt ullam unde vero iure error, ea aspernatur eos molestias animi recusandae laborum, expedita veniam necessitatibus adipisci nam!</p>
+                    <br class="boxes-br">
+                    <hr class="boxes-hr">
+                    <br class="boxes-br">
+                    <a class="web-links" href="https://hyrumparamore.github.io/wdd230spring22/1portfolio/index.html"><p>Website: Hyrum Paramore Portfolio</p></a>
+                </div>
+                
+                <div class="project-boxes"> 
+                    <embed src="https://hyrumparamore.github.io/wdd230spring22/finalProject/index.html" type="text/html"> 
+                    <h2> Pokemon Card Builder</h2>
+                    <p><i> Javascript Final Project | Spring 2022</i></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quos quidem in voluptatem quaerat, repudiandae quia ullam eveniet nemo debitis ad delectus impedit et ipsa ea soluta cum praesentium illum.</p>
+                    <br class="boxes-br">
+                    <hr class="boxes-hr">
+                    <br class="boxes-br">
+                    <a class="web-links" href="https://hyrumparamore.github.io/wdd230spring22/finalProject/index.html"><p>Website: Pokemon Card Builder</p></a>
+                </div>
+    
+                <div class="project-boxes"> 
+                    <embed src="https://hyrumparamore.github.io/wdd230spring22/chamber-files/index.html" type="text/html">
+                    <h2>Chamber Website</h2>
+                    <p><i>WDD 230 Project | Spring 2022</i></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quidem sequi dicta officia neque culpa? Consequuntur, accusantium. Impedit nisi placeat repellendus libero laborum fugiat eum deleniti dolorem voluptatibus! Iusto, recusandae?</p>
+                    <br class="boxes-br">
+                    <hr class="boxes-hr">
+                    <br class="boxes-br">
+                    <a class="web-links" href="https://hyrumparamore.github.io/wdd230spring22/chamber-files/index.html"><p>Website: Choice Chambers</p></a>
+                </div>
+    
+                <div class="project-boxes"> 
+                    <img class="images" src="images/project-page/resized-images/zelda-korok-finder-image-rez.png">
+                    <h2>Zelda Korok Finder</h2>
+                    <p><i>WDD 130 Final Project | Winter 2022</i></p>
+                    <p>This website does not support different sized screens. It looks a lot better on a computer screen. 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quidem sequi dicta officia neque culpa? Consequuntur, accusantium. Impedit nisi placeat repellendus libero laborum fugiat eum deleniti dolorem voluptatibus! Iusto, recusandae?</p>
+                    <br class="boxes-br">
+                    <hr class="boxes-hr">
+                    <br class="boxes-br">
+                    <a class="web-links" href="https://hyrumparamore.github.io/korok/home-page.html"><p>Website: Korok Finder</p></a>
+                </div>
+
+            </section>
+    
+        </section>
+    </div>
+        
+    <div id="SomethingElse" class="tabcontent">
+        <h3>Something Else</h3>
+        <p>Add other things if you want.</p>
+    </div>
     
 
 
