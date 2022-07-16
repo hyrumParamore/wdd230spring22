@@ -520,6 +520,30 @@ embed {
 } */
 
 
+/*********************
+      Hobbies Page
+*********************/
+
+.side-project-boxes {
+    width: 500px;
+    padding: 30px;
+    background-color: var(--second-color);
+    box-shadow: 5px 5px 10px var(--accent-color-2);
+    color: var(--background-color);
+}
+
+.side-project-boxes h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.side-project-boxes p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+    
+}
+
 
 
 
@@ -688,5 +712,16 @@ embed {
     .tab-hr-tag {
         display: none;
     }
+
+
+
+
+/*********************
+  Side-projects page
+*********************/
+    .side-project-boxes img {
+        width: 100%;
+    }
+    
     
 }

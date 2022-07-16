@@ -45,3 +45,54 @@ localStorage.setItem('last_visited', now_date);
 
 
 
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+
+
+
+// Lazy Loading
+
+const images = document.querySelectorAll('.images');
+const options = {threshold: .5, rootMargin: "0px 0px 100px 0px"};
+
+function preLoadImage(img) {
+    const source = img.getAttribute('data-src');
+    if(!source) {
+        return;
+    }
+
+    img.src = source;
+}
+
+
+const io = new IntersectionObserver (
+    (entries, io) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            } else {
+                preLoadImage(entry.target);
+                io.unobserve(entry.target);
+            }
+        })
+    }, options
+);
+
+
+images.forEach(image => {
+    io.observe(image); 
+})
