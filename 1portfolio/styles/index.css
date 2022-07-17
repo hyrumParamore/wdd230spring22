@@ -221,6 +221,7 @@ footer {
 .social-media a:hover {
     filter: brightness(130%);
     transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .ft-contact .contact-button {
@@ -234,6 +235,7 @@ footer {
 .contact-button:hover {
     background-color: var(--second-color);
     color: var(--background-color);
+    transition: 0.3s;
     
     
 }
@@ -277,12 +279,14 @@ footer img {
 .site-plan-link {
     text-decoration: none;
     margin: 0 auto;
+
 }
 
 
 .site-plan-link:hover {
     background-color: var(--second-color);
     color: var(--background-color);
+    transition: 0.3s;
 }
 
 
@@ -603,6 +607,198 @@ embed {
 
 
 
+/*********************
+    CONTACT PAGE
+*********************/
+
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 100px;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 400px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid var(--background-color); /* Gray border */
+    /* border-radius: 4px; Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: var(--background-color);
+    
+  }
+input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid var(--background-color); /* Gray border */
+    /* border-radius: 4px; Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: var(--background-color);
+
+    }
+  
+  /* Style the submit button with a specific background color etc */
+button[type=button] {
+    background-color: var(--accent-color-1);
+    color: var(--main-color);
+    font-weight: 500;
+    padding: 12px 20px;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+    margin-top: 8px;
+    border-bottom: 2px solid var(--main-color);
+    
+    
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+button[type=button]:hover {
+    background-color: var(--main-color);
+    color: var(--background-color);
+    /* margin-top: 15px; */
+    transition: 0.3s;
+    /* border-bottom: 2px solid var(--background-color); */
+    
+    
+}
+  
+  /* Add a background color and some padding around the form */
+.contact-container {
+    /* border-radius: 5px; */
+    background-color: var(--second-color);
+    padding: 30px;
+    width: 50%;
+    
+    /* margin-left: 20px; */
+}
+
+textarea {
+    height: 100px;
+}
+.contact-container label {
+    font-size: 20px;
+    font-weight: lighter;
+    color: var(--background-color);
+    line-height: 25px;
+}
+
+
+.help-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--accent-color-1);
+    padding: 30px;
+}
+
+.help-container h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--main-color);
+}
+
+.help-container li {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 10px;
+    color: var(--main-color);
+    list-style: square;
+}
+
+.help-container a img {
+    width: 40px;
+    /* padding-right: 10px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.help-container a img {
+    width: 40px;
+    /* padding-right: 10px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+.help-container img:hover {
+    filter: brightness(130%);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* SNACKBAR */
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: var(--second-color); /* Black background color */
+    color: var(--background-color); /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 60px; /* 30px from the bottom */
+    border-left: 4px solid var(--main-color);
+
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.6s, fadeout 0.6s 2.5s;
+    animation: fadein 0.6s, fadeout 0.6s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 60px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 60px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 60px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 60px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*********************
@@ -782,5 +978,15 @@ embed {
     /* RESUME */
     .pdf-resume {
         width: 80%;
+    }
+
+
+
+
+/*********************
+  CONTACT PAGE
+*********************/
+    .contact-content {
+        justify-content: center;
     }
 }
