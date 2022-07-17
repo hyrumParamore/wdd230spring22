@@ -615,6 +615,8 @@ embed {
 .contact-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 50px; */
     gap: 100px;
     margin-top: 100px;
     width: 100%;
@@ -681,6 +683,9 @@ button[type=button]:hover {
     background-color: var(--second-color);
     padding: 30px;
     width: 50%;
+    max-width: 650px;
+    box-shadow: 5px 5px 10px var(--accent-color-2);
+    /* margin: 0 auto; */
     
     /* margin-left: 20px; */
 }
@@ -701,11 +706,12 @@ textarea {
     flex-direction: column;
     background-color: var(--accent-color-1);
     padding: 30px;
+    box-shadow: 5px 5px 10px var(--accent-color-2);
 }
 
 .help-container h3 {
     font-size: 30px;
-    font-weight: lighter;
+    font-weight: 400;
     color: var(--main-color);
 }
 
