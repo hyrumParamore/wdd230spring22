@@ -355,6 +355,11 @@ footer img {
     width: 100%;
     justify-content: space-around;
     gap: 30px;
+    padding-top: 40px;
+    
+}
+.wireframes {
+    box-shadow: 5px 5px 10px var(--main-color);
 }
 
 .box-1 {
@@ -395,6 +400,12 @@ footer img {
     margin: 50px auto;
 
     box-shadow: 5px 5px 10px var(--accent-color-2);
+}
+.site-map {
+    width: 500px;
+    height: auto;
+    box-shadow: 5px 5px 10px var(--main-color);
+
 }
 
 
