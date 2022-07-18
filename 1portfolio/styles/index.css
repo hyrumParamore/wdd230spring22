@@ -517,6 +517,11 @@ embed {
 .boxes-br {
     padding-top: 20px;
 }
+.project-boxes:hover {
+    filter: brightness(105%);
+    transform: scale(1.01);
+    transition: 0.3s;
+}
 
 
 
@@ -580,7 +585,7 @@ embed {
 
 /*********************
         Footer
-    *********************/
+*********************/
 
 .side-project-boxes {
     width: 500px;
@@ -601,6 +606,41 @@ embed {
     line-height: 25px;
     
 }
+.side-project-boxes .images {
+    box-shadow: 3px 3px 10px var(--main-color);
+}
+
+.side-project-boxes:hover {
+    filter: brightness(110%);
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+
+/* SCROLLBAR ANIMATION */
+
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: var(--second-color);
+    width: 0%;
+  }
 
 
 
@@ -656,6 +696,22 @@ embed {
     color: var(--background-color);
     transition: 0.3s;
     margin: 20px;
+}
+
+.resume-contact {
+    background-color: var(--accent-color-1);
+    padding: 15px 20px;
+    color: var(--main-color);
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid var(--main-color);
+
+}
+.resume-contact:hover {
+    background-color: var(--main-color);
+    color: var(--background-color);
+    transition: 0.3s;
+
 }
 
 
@@ -866,6 +922,112 @@ textarea {
       Media Q's
 *********************/
 
+/* MEDIUM SCREEN */
+@media only screen and (max-width: 1500px) {
+
+    #hero-area{
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .container {
+        flex-direction: column;
+        width: 80%;
+        margin: 0px 20px 0px 30px;
+    }
+    
+    
+    .hero-img {
+        width: 50%;
+        height: auto;
+        
+        
+    }
+    .left {
+        text-align: center;
+    }
+
+    /* Change the size of headers */
+    .right {
+        width: 50%;
+        margin: 0;
+        margin-top: -30px;
+    }
+    .right h1 {
+        font-size: 35px;
+    }
+    .ab-content h2 {
+        font-size: 35px;
+    }
+
+
+    .ab-container {
+        width: 80%;
+
+    } 
+
+    
+
+    /*********************
+        Footer
+    *********************/
+    .site-plan-link {
+        width: 20%;
+    }
+
+
+/*********************
+    Projects Page
+*********************/
+
+    embed {
+        width: 350px;
+        height: 450px;
+    }
+
+
+    .project-boxes {
+        width: 350px;
+        height: auto;
+    }
+
+    .project-boxes .images {
+        width: 350px;
+        height: auto;
+    }
+
+    .tab-hr-tag {
+        display: none;
+    }
+
+
+
+/*********************
+  Side-projects page
+*********************/
+    .side-project-boxes img {
+        width: 100%;
+    }
+    
+    
+    /* RESUME */
+    .pdf-resume {
+        width: 80%;
+    }
+
+
+
+
+/*********************
+  CONTACT PAGE
+*********************/
+    .contact-content {
+        justify-content: center;
+    }
+}
+
+
+
+/* SMALL SCREEN */
 @media only screen and (max-width: 768px) {
 
     #hero-area{
@@ -922,7 +1084,7 @@ textarea {
     }
 
     .site-plan-link {
-        width: 30px;
+        width: 30%;
     }
     .social-media {
         display: flex;
@@ -1050,4 +1212,10 @@ textarea {
     .contact-content {
         justify-content: center;
     }
+
+    #snackbar {
+        background-color: var(--second-color);
+        color: var(--background-color);
+      }
+    
 }
