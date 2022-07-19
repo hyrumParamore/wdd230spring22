@@ -73,31 +73,32 @@ async function getBoxes(requestURL) {
 
 function displayBoxes(boxes)
 {
-  let box = document.querySelector('.side-project-boxes');
-  let h2 = document.createElement('h2');
-  let ex = document.createElement('p');
-  let p = document.createElement('p');
-  let pho = document.createElement('p');
-  // let pob = document.createElement('p');
-  let img = document.createElement('img');
+    
+    let box = document.createElement('div');
+    let h2 = document.createElement('h2');
+    let ex = document.createElement('p');
+    let p = document.createElement('p');
+    // let pho = document.createElement('p');
+    // let pob = document.createElement('p');
+    let img = document.createElement('img');
 
-  h2.textContent = boxes.title; 
-  ex.textContent = boxes.extra;   
-  p.textContent = boxes.text;
-  pho.textContent = boxes.phone;
-  // pob.textContent = `${boxes.birthplace}`;                             
-  img.setAttribute('src', boxes.imageurl);                                     
-  img.setAttribute('alt', `${boxes.title}`) // This :)
+    h2.textContent = boxes.title; 
+    ex.textContent = boxes.extra;   
+    p.textContent = boxes.text;
+    // pho.textContent = boxes.phone;
+    // pob.textContent = `${boxes.birthplace}`;                             
+    img.setAttribute('src', boxes.imageurl);                                     
+    img.setAttribute('alt', `${boxes.title}`) // This :)
 
 
-  box.appendChild(img);
-  box.appendChild(h2);
-  box.appendChild(ex);
-  box.appendChild(p);
-  box.appendChild(web);
-  // card.appendChild(pob);
-  
-  document.querySelector('.something').appendChild(box)
+    box.appendChild(img);
+    box.appendChild(h2);
+    box.appendChild(ex);
+    box.appendChild(p);
+    // box.appendChild(web);
+    // card.appendChild(pob);
+    
+    document.querySelector('.flex-boxes').appendChild(box);
 
 }
 
