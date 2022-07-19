@@ -75,15 +75,15 @@ function displayBoxes(boxes)
 {
   let box = document.querySelector('.side-project-boxes');
   let h2 = document.createElement('h2');
-  let text = document.createElement('p');
-  let web = document.createElement('p');
+  let ex = document.createElement('p');
+  let p = document.createElement('p');
   let pho = document.createElement('p');
   // let pob = document.createElement('p');
   let img = document.createElement('img');
 
   h2.textContent = boxes.title; 
-  text.textContent = boxes.text;   
-  web.textContent = boxes.website;
+  ex.textContent = boxes.extra;   
+  p.textContent = boxes.text;
   pho.textContent = boxes.phone;
   // pob.textContent = `${boxes.birthplace}`;                             
   img.setAttribute('src', boxes.imageurl);                                     
@@ -92,8 +92,8 @@ function displayBoxes(boxes)
 
   box.appendChild(img);
   box.appendChild(h2);
-  box.appendChild(text);
-  box.appendChild(pho);
+  box.appendChild(ex);
+  box.appendChild(p);
   box.appendChild(web);
   // card.appendChild(pob);
   
