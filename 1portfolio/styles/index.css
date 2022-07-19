@@ -109,6 +109,11 @@ main {
 
     box-shadow: 5px 5px 10px var(--accent-color-2);
 }
+.hero-img:hover {
+    filter: brightness(115%);
+    transition: 0.3s;
+    z-index: -100;
+}
 .right {
     width: 50%;
     min-height: 200px;
@@ -120,8 +125,13 @@ main {
     color: var(--background-color);
     margin-left: -150px;
     margin-bottom: -600px;
+    z-index: 100;
 
     box-shadow: 5px 5px 10px var(--accent-color-2);
+}
+.right:hover {
+    filter: brightness(115%);
+    transition: 0.3s;
 }
 .right h1 {
     font-size: 40px;
@@ -167,6 +177,22 @@ main {
 }
 
 
+.index-contact-me {
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    /* font-size: 40px; */
+    font-weight: 500;
+    
+
+
+}
+.index-contact-me:hover {
+    background-color: var(--main-color);
+    transition: 0.3s;
+    color: var(--background-color);
+}
+
+
 /*********************
   ABOUT ME CONTAINER
 *********************/
@@ -183,6 +209,10 @@ main {
     margin: 0px auto;
 
     box-shadow: 5px 5px 10px var(--accent-color-2);
+}
+.ab-container:hover {
+    filter: brightness(115%);
+    transition: 0.3s;
 }
 .ab-content h2 {
     font-size: 40px;
