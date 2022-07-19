@@ -4,18 +4,19 @@
         "title": "The Last Word Hand Cannon",
         "extra": "3D Printing project: Destiny Hand Cannon",
         "text": "The Last Word Hand Cannon is a gun from the videogame Destiny. This was a project that my older brother and I decided to work on together after being big fans of the game. One of my hobbies, 3D printing helped with the build of this gun. I build this one that is in the picture while my brother built his favorite one, the Sunshot.",
-        "address": "142 W. Some, City 98743",
         "imageurl": "https://hyrumparamore.github.io/wdd230spring22/1portfolio/images/side-project-images/the-last-word-hand-cannon.jpg"
       },
       {
-        "title": "This is a test",
-        "extra": "142 W. Some, City 98743",
-        "imageurl": "../images/side-project-images/the-last-word-hand-cannon.jpg"
+        "title": "Hunter's Dice Box",
+        "extra": "Birthday present to a brother:",
+        "text": "This epoxy dice box was someting that I made for one of my brother's birthday. It was the first project that I made with epoxy when I was facinated my epoxy art and projects. It is a DND dice box that can hold all of his dice and a few other little things he wishes to add.",
+        "imageurl": "https://hyrumparamore.github.io/wdd230spring22/1portfolio/images/side-project-images/hunters-dice-box/resized/dice-box1.jpg"
       },
       {
-        "title": "This is a test",
-        "extra-info": "142 W. Some, City 98743",
-        "imageurl": "../images/side-project-images/the-last-word-hand-cannon.jpg"
+        "title": "Epoxy Cutting Board",
+        "extra": "Birthday present to a brother:",
+        "text": "This was an epoxy cutting board that I made for one of my brothers birthday gift. I was really into working with epoxy and wood because I have always appreciated other people's work in the art, so I decided I wanted to try my hand at it. It was one of the first projects I did with the epoxy, so there was a lot to learn.",
+        "imageurl": "https://hyrumparamore.github.io/wdd230spring22/1portfolio/images/side-project-images/parkers-cutting-board/jpg/parkes-cutting-board3.jpg"
       }
     ]
 }
