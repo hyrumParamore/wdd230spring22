@@ -87,7 +87,7 @@ function displayBoxes(boxes)
   pho.textContent = boxes.phone;
   // pob.textContent = `${boxes.birthplace}`;                             
   img.setAttribute('src', boxes.imageurl);                                     
-  img.setAttribute('alt', `${boxes.name}`) // This :)
+  img.setAttribute('alt', `${boxes.title}`) // This :)
 
 
   box.appendChild(img);
