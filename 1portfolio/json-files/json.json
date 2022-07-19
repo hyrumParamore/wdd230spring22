@@ -1,0 +1,23 @@
+{
+    "boxes": [
+      {
+        "title": "Last Word Hand Cannon",
+        "extra-info": "142 W. Some, City 98743",
+        "imageurl": "../images/side-project-images/the-last-word-hand-cannon.jpg"
+      },
+      {
+        "name": "Cinema Citibank",
+        "address": "142 W. Some, City 98743",
+        "phone": "(123) 321-4567",
+        "website": "cinemacitibank.com",
+        "imageurl": "https://www.freepnglogos.com/uploads/citibank-png-logo/skysight-motion-cinema-citibank-png-logo-20.png"
+      },
+      {
+        "name": "Adidas",
+        "address": "142 W. Some, City 98743",
+        "phone": "(123) 321-4567",
+        "website": "adidas.com",
+        "imageurl": "https://seeklogo.com/images/A/adidas-logo-107B082DA0-seeklogo.com.png"
+      }
+    ]
+}
