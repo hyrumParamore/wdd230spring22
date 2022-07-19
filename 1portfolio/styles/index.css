@@ -450,7 +450,17 @@ footer img {
 
 
 
-.flex-boxes {
+.flex-boxes > div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+    padding-top: 150px;
+    justify-content: center;
+}
+/* For the College Web Projects Tab */
+.flex-boxes1 {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -581,6 +591,15 @@ embed {
 #SomethingElse {
     display: none;
 } */
+
+
+
+.info-p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 15px;
+    color: var(--main-color);
+}
 
 
 /*********************
@@ -1116,9 +1135,12 @@ textarea {
 /*********************
     Projects Page
 *********************/
-    .flex-boxes {
+    .flex-boxes > div {
         margin: 0 auto;
         /* background-color: red; */
+    }
+    .flex-boxes1 {
+        margin: 0 auto;
     }
 
     .project-header {
@@ -1126,7 +1148,7 @@ textarea {
         padding-top: 20px;
     }
 
-    /* .flex-boxes {
+    /* .flex-boxes > div {
         display: flex;
         flex-wrap: wrap;
         width: 80%;
