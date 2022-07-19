@@ -71,9 +71,9 @@ async function getBoxes(requestURL) {
 // getBusinesses(requestURL);
 
 
-function displayBoxes(box)
+function displayBoxes(boxes)
 {
-  let box = document.createElement('div');
+  let box = document.querySelector('.side-project-boxes');
   let h2 = document.createElement('h2');
   let text = document.createElement('p');
   let web = document.createElement('p');
