@@ -73,16 +73,16 @@ async function getBoxes(requestURL) {
 
 function displayBoxes(box)
 {
-  let box = document.querySelector(".side-project-boxes");
+  let box = document.createElement('div');
   let h2 = document.createElement('h2');
-  let add = document.createElement('p');
+  let text = document.createElement('p');
   let web = document.createElement('p');
   let pho = document.createElement('p');
   // let pob = document.createElement('p');
   let img = document.createElement('img');
 
   h2.textContent = boxes.title; 
-  add.textContent = boxes.address;   
+  text.textContent = boxes.text;   
   web.textContent = boxes.website;
   pho.textContent = boxes.phone;
   // pob.textContent = `${boxes.birthplace}`;                             
@@ -92,12 +92,12 @@ function displayBoxes(box)
 
   box.appendChild(img);
   box.appendChild(h2);
-  box.appendChild(add);
+  box.appendChild(text);
   box.appendChild(pho);
   box.appendChild(web);
   // card.appendChild(pob);
   
-  document.querySelector('box').appendChild(box)
+  document.querySelector('.something').appendChild(box)
 
 }
 
